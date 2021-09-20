@@ -5,7 +5,7 @@
     "height": 600,
     "projection": {"type": "equirectangular"},
     "data": {
-      "url": "https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/AustralianStates%20(4).json",
+      "url": "https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/AustralianStates%20(6).topojson",
       "format": {"type": "topojson", "feature": "AustralianStates"}
     },
     "transform": [
@@ -32,6 +32,6 @@
             {"field": "Active", "type": "quantitative"}
         ]
         }
-       
-
   }
+
+  
