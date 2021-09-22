@@ -1,40 +1,74 @@
 {
+    "params": [
+          {
+          "name": "Smoking_selection",
+          "bind": {
+              "input": "select",
+              "options": [
+                null,
+                  "Daily",
+                  "Occasional",
+                  "Ex-smoker",
+                  "Never smoked"
+          ],
+          "labels":[
+                  "Selection",
+                  "Daily",
+                  "Occasional",
+                  "Ex-smoker",
+                  "Never smoked"
+                  ],
+                      "name": "Smoking Status: "
+                  }
+          }
+      ],
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Percentage of People that Never Smoked in Australia for 2001",
-    "width": 600,
-    "height": 600,
-    "projection": {"type": "equirectangular"},
-    "data": {
-      "url": "https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/AustralianStates%20(6).topojson",
-      "format": {"type": "topojson", "feature": "AustralianStates"}
+     "title": "Percentage of People that Smoke in Australia",
+    "repeat": {"row": ["2001", "2004", "2007", "2010"]},
+    "resolve": {
+      "scale": {
+        "color": "independent"
+      }
     },
-    "transform": [
-        {
-        "lookup": "properties.STATE_NAME",
-        "from": {
-        "data": {
+    "spec": {
+      "width": 500,
+      "height": 300,
+      "data": {
         "url": "https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/UpdatedTabacoo2001-2019.csv"
+      },
+      "transform": [
+        {
+          "lookup": "State",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/AustralianStates%20(6).topojson",
+              "format": {
+                "type": "topojson",
+                "feature": "AustralianStates"
+              }
+            },
+            "key": "properties.STATE_NAME"
+          },
+          "as": "geo"
         },
-            "key": "State",
-            "fields": ["Smoking status","2001"]
-        }
-        }
-        ],
-        "mark": {"type": "geoshape"},
-        "encoding": {
-            "color": {
-                "field": "2001",
-                "type": "quantitative",
-                "scale": {"scheme": "blues"}
-                
+        {"filter": "Smoking_selection == null || datum.Status == Smoking_selection"}
+      ],
+      "projection": {"type": "equirectangular"},
+      "mark": "geoshape",
+      "encoding": {
+        "shape": {
+          "field": "geo",
+          "type": "geojson"
         },
-        "tooltip": [
-            {"field": "properties.STATE_NAME", "type": "nominal", "title": "State Name"},
-            {"field": "Smoking status", "type": "nominal"},
-            {"field": "2001", "type": "quantitative"}
-           
-        ]
-        }
+        "color": {
+          "field": {"repeat": "row"},
+          "type": "quantitative"
+        },
+         "tooltip": [
+        {"field": "State", "type": "nominal", "title": "State"},
+        {"title": "Percentage of People", "field": {"repeat": "row"}, "type": "quantitative"}
+      ]
+      }
+    }
   }
-
   
