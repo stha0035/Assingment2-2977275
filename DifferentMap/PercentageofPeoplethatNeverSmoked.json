@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Tabacoo Impact on Australia",
+    "title": "Percentage of People that Never Smoked in Australia for 2001",
     "width": 600,
     "height": 600,
     "projection": {"type": "equirectangular"},
@@ -16,7 +16,7 @@
         "url": "https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/UpdatedTabacoo2001-2019.csv"
         },
             "key": "State",
-            "fields": ["2001"]
+            "fields": ["Smoking status","2001"]
         }
         }
         ],
@@ -25,11 +25,14 @@
             "color": {
                 "field": "2001",
                 "type": "quantitative",
-                "scale": {"type": "log"}
+                "scale": {"scheme": "blues"}
+                
         },
         "tooltip": [
-            {"field": "properties.STATE_NAME", "type": "nominal", "title": "Country"},
-            {"field": "Active", "type": "quantitative"}
+            {"field": "properties.STATE_NAME", "type": "nominal", "title": "State Name"},
+            {"field": "Smoking status", "type": "nominal"},
+            {"field": "2001", "type": "quantitative"}
+           
         ]
         }
   }
