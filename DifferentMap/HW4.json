@@ -47,10 +47,10 @@
     "mark": {"type": "geoshape"},
     "encoding": {
       "shape": {"field": "geo", "type": "geojson"},
-      "color": {"field": "2001", "type": "quantitative"},
+      "color": {"field": "Percentage", "type": "quantitative"},
       "tooltip": [
         {"field": "State", "type": "nominal", "title": "country"},
-        {"title": "Percentage", "field": "2001", "type": "quantitative"}
+        {"title": "Percentage", "field": "Percentage", "type": "quantitative"}
       ]
     }
   }
