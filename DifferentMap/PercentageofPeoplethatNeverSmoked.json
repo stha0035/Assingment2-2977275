@@ -1,5 +1,5 @@
 {
-    "params": [
+  "params": [
           {
           "name": "Smoking_selection",
           "bind": {
@@ -20,55 +20,51 @@
                   ],
                       "name": "Smoking Status: "
                   }
-          }
-      ],
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-     "title": "Percentage of People that Smoke in Australia",
-    "repeat": {"row": ["2001", "2004", "2007", "2010"]},
-    "resolve": {
-      "scale": {
-        "color": "independent"
-      }
-    },
-    "spec": {
-      "width": 500,
-      "height": 300,
-      "data": {
-        "url": "https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/UpdatedTabacoo2001-2019.csv"
-      },
-      "transform": [
-        {
-          "lookup": "State",
-          "from": {
-            "data": {
-              "url": "https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/AustralianStates%20(6).topojson",
-              "format": {
-                "type": "topojson",
-                "feature": "AustralianStates"
-              }
-            },
-            "key": "properties.STATE_NAME"
           },
-          "as": "geo"
-        },
-        {"filter": "Smoking_selection == null || datum.Status == Smoking_selection"}
+        {
+          "name": "Year_above",
+          "value": 2001,
+          "bind": {
+          "input": "range",    
+          "min": 2001,
+          "max": 2019,
+          "step": 3,
+          "name": "Years: "
+          }
+        }   
       ],
-      "projection": {"type": "equirectangular"},
-      "mark": "geoshape",
-      "encoding": {
-        "shape": {
-          "field": "geo",
-          "type": "geojson"
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Percentage of People that Smoke",
+  "width": 600,
+  "height": 300,
+  "data": {
+    "url": "https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/UPDATED2001-2019.csv"
+  },
+  "transform": [
+    {
+      "lookup": "State",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/AustralianStates%20(6).topojson",
+          "format": {"type": "topojson", "feature": "AustralianStates"}
         },
-        "color": {
-          "field": {"repeat": "row"},
-          "type": "quantitative"
-        },
-         "tooltip": [
-        {"field": "State", "type": "nominal", "title": "State"},
-        {"title": "Percentage of People", "field": {"repeat": "row"}, "type": "quantitative"}
-      ]
-      }
-    }
+        "key": "properties.STATE_NAME"
+      },
+      "as": "geo"
+    },
+    {"filter": "Smoking_selection == null || datum.Status == Smoking_selection"},
+    {"filter": "datum.Year == Year_above"}
+  ],
+  "projection": {"type": "equirectangular"},
+  "mark": {"type": "geoshape"},
+  "encoding": {
+    "shape": {"field": "geo", "type": "geojson"},
+    "color": {"field": "Percentage", "type": "quantitative"},
+    "tooltip": [
+      {"field": "State", "type": "nominal", "title": "country"},
+      {"title": "Percentage", "field": "Percentage", "type": "quantitative"},
+      {"title": "Year", "field": "Year", "type": "quantitative"},
+      {"title": "Smoking Status", "field": "Status", "type": "nominal"}
+    ]
   }
-  
+}
