@@ -1,0 +1,56 @@
+{
+    "params": [
+            {
+            "name": "Smoking_selection",
+            "bind": {
+                "input": "select",
+                "options": [
+                  null,
+                    "Daily",
+                    "Occasional",
+                    "Ex-smoker",
+                    "Never smoked"
+            ],
+            "labels":[
+                    "Selection",
+                    "Daily",
+                    "Occasional",
+                    "Ex-smoker",
+                    "Never smoked"
+                    ],
+                        "name": "Smoking Status: "
+                    }
+            }
+        ],
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Percentage of People that Smoke",
+    "width": 600,
+    "height": 300,
+    "data": {
+      "url": "https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/UpdatedTabacoo2001-2019.csv"
+    },
+    "transform": [
+      {
+        "lookup": "State",
+        "from": {
+          "data": {
+            "url": "https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/AustralianStates%20(6).topojson",
+            "format": {"type": "topojson", "feature": "AustralianStates"}
+          },
+          "key": "properties.STATE_NAME"
+        },
+        "as": "geo"
+      },
+      {"filter": "Smoking_selection == null || datum.Status == Smoking_selection"}
+    ],
+    "projection": {"type": "equirectangular"},
+    "mark": {"type": "geoshape"},
+    "encoding": {
+      "shape": {"field": "geo", "type": "geojson"},
+      "color": {"field": "2001", "type": "quantitative"},
+      "tooltip": [
+        {"field": "State", "type": "nominal", "title": "country"},
+        {"title": "Percentage", "field": "2001", "type": "quantitative"}
+      ]
+    }
+  }
