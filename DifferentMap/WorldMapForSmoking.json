@@ -21,14 +21,6 @@
 },
 "layer":[
   {
-    "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"},
-    "encoding": {
-      "tooltip": {
-        "field": "properties.NAME"
-      }
-    }
-  },
-  {
     "transform": [
       {
         "lookup": "Entity",
