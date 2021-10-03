@@ -61,7 +61,7 @@
     "shape": {"field": "geo", "type": "geojson"},
     "color": {"field": "Percentage", "type": "quantitative"},
     "tooltip": [
-      {"field": "State", "type": "nominal", "title": "country"},
+      {"field": "State", "type": "nominal", "title": "State"},
       {"title": "Percentage", "field": "Percentage", "type": "quantitative"},
       {"title": "Year", "field": "Year", "type": "quantitative"},
       {"title": "Smoking Status", "field": "Status", "type": "nominal"}
