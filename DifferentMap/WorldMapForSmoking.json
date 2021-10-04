@@ -20,7 +20,8 @@
   "url": "https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/Proportion%20of%20population%2015%2B%20who%20are%20daily%20smokers.csv"
 },
 "layer":[
-  {
+ 
+    {
     "transform": [
       {
         "lookup": "Entity",
@@ -44,8 +45,21 @@
         {"field": "Entity", "type": "nominal", "title": "Country"},
         {"title": "Daily smoker", "field": "Daily smoker", "type": "quantitative"}
              ]
-  }
-  }
-]
+          }
+      },
+        {
+        "transform": [
+        {"calculate": "'Data is not available in' + datum.NAME_LONG", "as": "note"}
+      ],
+      "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"},
+      "encoding": 
+        {
+          "tooltip": 
+          {
+            "field": "note"
+          }
+        }
+      }
+    ]
 }
 

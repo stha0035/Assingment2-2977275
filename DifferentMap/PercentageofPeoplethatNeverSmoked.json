@@ -40,6 +40,7 @@
   "data": {
     "url": "https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/UPDATED2001-2019.csv"
   },
+  "layer":[{
   "transform": [
     {
       "lookup": "State",
@@ -56,7 +57,7 @@
     {"filter": "datum.Year == Year_above"}
   ],
   "projection": {"type": "equirectangular"},
-  "mark": {"type": "geoshape"},
+  "mark": {"type": "geoshape", "stroke": "black"},
   "encoding": {
     "shape": {"field": "geo", "type": "geojson"},
     "color": {"field": "Percentage", "type": "quantitative"},
@@ -66,5 +67,7 @@
       {"title": "Year", "field": "Year", "type": "quantitative"},
       {"title": "Smoking Status", "field": "Status", "type": "nominal"}
     ]
-  }
+     }
+    }
+  ]
 }
