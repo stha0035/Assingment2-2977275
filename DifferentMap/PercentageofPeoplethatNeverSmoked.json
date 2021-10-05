@@ -57,7 +57,7 @@
     {"filter": "datum.Year == Year_above"}
   ],
   "projection": {"type": "equirectangular"},
-  "mark": {"type": "geoshape", "stroke": "black"},
+  "mark": {"type": "geoshape", "stroke": "White"},
   "encoding": {
     "shape": {"field": "geo", "type": "geojson"},
     "color": {"field": "Percentage", "type": "quantitative"},

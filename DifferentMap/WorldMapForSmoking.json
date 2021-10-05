@@ -20,6 +20,25 @@
   "url": "https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/Proportion%20of%20population%2015%2B%20who%20are%20daily%20smokers.csv"
 },
 "layer":[
+    {
+      "data": {
+      "url":"https://raw.githubusercontent.com/KaneSec/vega_lite/main/3_choropleth_map/js/ne_110m_admin_0_countries.topojson",
+      "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+            },
+        "transform": [
+        {
+        "calculate": "'Data is not available in ' + datum.properties.NAME",
+        "as": "note"
+        }
+        ],
+        "mark": {
+        "type": "geoshape",
+        "fill": "#ddd",
+        "stroke": "white",
+        "strokeWidth": 1
+        },
+        "encoding": {"tooltip": {"field": "note"}}
+    },
  
     {
     "transform": [
@@ -37,22 +56,22 @@
       {"filter": "datum.Year == Year_above"}
     ],
     "projection": {"type": "equalEarth"},
-    "mark": {"type": "geoshape"},
-     "encoding": {
-  "shape": {"field": "geo", "type": "geojson"},
-  "color": {"field": "Daily smoker", "type": "quantitative"},
-  "tooltip": [
+    "mark": {"type": "geoshape", "stroke": "White"},
+    "encoding": {
+    "shape": {"field": "geo", "type": "geojson"},
+    "color": {"field": "Daily smoker", "type": "quantitative"},
+    "tooltip": [
         {"field": "Entity", "type": "nominal", "title": "Country"},
         {"title": "Daily smoker", "field": "Daily smoker", "type": "quantitative"}
              ]
           }
       },
-        {
+       {
         "transform": [
         {"calculate": "'Data is not available in' + datum.NAME_LONG", "as": "note"}
-      ],
-      "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"},
-      "encoding": 
+                    ],
+        "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"},
+        "encoding": 
         {
           "tooltip": 
           {
