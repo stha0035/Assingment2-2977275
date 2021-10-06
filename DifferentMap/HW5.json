@@ -1,10 +1,13 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 500,
-    "height": 400,
-    "title": "Percentage of drugs people get from different sources",
-    "params": [
-      {
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 600,
+  "height": 400,
+  "title": "Percentage of drugs people get from different sources",
+  "data": {
+    "url": "https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/SourceOfDrugs2001.csv"
+  },
+  "params": [
+    {
           "name": "Source_selection",
           "bind": {
           "input": "select",
@@ -25,60 +28,96 @@
           "name": "Source Selection: "
           }
       }
-    ],
-   "transform": [
+  ],
+  "transform": [
         {"filter": "Source_selection == null || datum.Source == Source_selection"}
       ],
-  
-    "data": {
-    "url": "https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/SourceOfDrugs2001.csv"
-    },
-    "mark": "area",
-    "encoding": {
-      "x": {
+
+  "encoding": {
+    "x": {
       "field": "Year",
       "timeUnit": "year",
-      "title": "Confirmed Cases"
-     },
-      "y": {
+      "title": "Years"
+    },
+    "y": {
       "field": "Percentage",
       "type": "quantitative"
-    },
-      "color": {
-      "field": "Drug Typ",
-          "type": "nominal",
-          "title": "Drug Type",
-          "scale": {
-          "domain": [
-          "Cannabis",
-          "Ecstasy ",
-          "Meth",
-          "Cocaine",
-          "Inhalants"
-          ],
-          "range": [
-          "#e41a1c",
-          "#984ea3",
-          "#ff7f00",
-          "#a6cee3",
-          "#377eb8",
-          "#a65628"
-              ]
-            }
-          },
-          "opacity": {
-          "value": 0.6
-          },
-    "size": {
+    }
+  },
+  "layer": [
+    {
+      "selection": {
+        "continent_highlight": {
+          "type": "multi",
+          "fields": ["Drug Typ"],
+          "bind": "legend"
+        }
+      },
+      "mark": "area",
+      "encoding": {
+        "size": {
       "field": "Percentage",
       "type": "quantitative"
       },
-      "tooltip": [
+         "color": {
+         "field": "Drug Typ",
+            "type": "nominal",
+            "title": "Drug Type",
+            "scale": {
+            "domain": [
+            "Cannabis",
+            "Ecstasy ",
+            "Meth",
+            "Cocaine",
+            "Inhalants"
+            ],
+            "range": [
+            "#e41a1c",
+            "#984ea3",
+            "#ff7f00",
+            "#a6cee3",
+            "#377eb8",
+            "#a65628"
+                ]
+              }
+            },
+          "opacity": {
+          "value": 0.6
+          },
+        "tooltip": [
           {"field": "Drug Type", "type": "nominal"},
           {"field": "Percentage", "type": "quantitative", "format": ","},
           {"field": "Source", "type": "nominal"},
           {"field": "Year", "timeUnit": "year"}
             ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "baseline": "middle",
+        "dx": -12,
+        "fontSize": 11.5,
+        "fontStyle": "italic"
+      },
+      "encoding": {
+        "text": {"field": "Drug Typ", "type": "nominal"},
+        "color": {"value": "black"},
+        "opacity": {
+          "condition": {
+            "test": "datum['Drug Typ'] == 'Cannabis' || datum['Drug Typ'] == 'Ecstasy' || datum['Drug Typ'] == 'Meth'",
+            "value": 1
+          },
+          "value": 0
+        },
+          "tooltip": [
+          {"field": "Drug Type", "type": "nominal"},
+          {"field": "Percentage", "type": "quantitative", "format": ","},
+          {"field": "Source", "type": "nominal"},
+          {"field": "Year", "timeUnit": "year"}
+            ]
+      }
     }
-  }
-  
+  ]
+}
