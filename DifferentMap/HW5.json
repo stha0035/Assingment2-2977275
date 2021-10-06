@@ -1,123 +1,104 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 600,
-  "height": 400,
-  "title": "Percentage of drugs people get from different sources",
   "data": {
     "url": "https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/SourceOfDrugs2001.csv"
   },
+  "width": 400,
+  "height": 300,
   "params": [
-    {
-          "name": "Source_selection",
-          "bind": {
-          "input": "select",
-          "options": [
-                null,
-                "Friend",
-                "Relative or partner",
-                "Dealer",
-                "Other"
-          ],
-          "labels":[
-              "Show All",
+  {
+        "name": "Source_selection",
+        "bind": {
+        "input": "select",
+        "options": [
+              null,
               "Friend",
               "Relative or partner",
               "Dealer",
               "Other"
-          ],
-          "name": "Source Selection: "
-          }
-      }
-  ],
-  "transform": [
-        {"filter": "Source_selection == null || datum.Source == Source_selection"}
-      ],
-
-  "encoding": {
-    "x": {
-      "field": "Year",
-      "timeUnit": "year",
-      "title": "Years"
-    },
-    "y": {
-      "field": "Percentage",
-      "type": "quantitative"
+        ],
+        "labels":[
+            "Show All",
+            "Friend",
+            "Relative or partner",
+            "Dealer",
+            "Other"
+        ],
+        "name": "Source Selection: "
+        }
     }
-  },
+],
+"transform": [
+      {"filter": "Source_selection == null || datum.Source == Source_selection"}
+    ],
   "layer": [
     {
-      "selection": {
-        "continent_highlight": {
-          "type": "multi",
-          "fields": ["Drug Typ"],
-          "bind": "legend"
-        }
-      },
-      "mark": "area",
       "encoding": {
-        "size": {
-      "field": "Percentage",
-      "type": "quantitative"
+        "x": {"field": "Year", "type": "temporal"},
+        "y": {"field": "Percentage", "type": "quantitative"},
+        "color": {"field": "Drug", "type": "nominal"}
       },
-         "color": {
-         "field": "Drug Typ",
-            "type": "nominal",
-            "title": "Drug Type",
-            "scale": {
-            "domain": [
-            "Cannabis",
-            "Ecstasy ",
-            "Meth",
-            "Cocaine",
-            "Inhalants"
-            ],
-            "range": [
-            "#e41a1c",
-            "#984ea3",
-            "#ff7f00",
-            "#a6cee3",
-            "#377eb8",
-            "#a65628"
-                ]
-              }
-            },
-          "opacity": {
-          "value": 0.6
-          },
-        "tooltip": [
-          {"field": "Drug Type", "type": "nominal"},
-          {"field": "Percentage", "type": "quantitative", "format": ","},
-          {"field": "Source", "type": "nominal"},
-          {"field": "Year", "timeUnit": "year"}
-            ]
-      }
+      "layer": [
+        {"mark": "line"},
+        {
+          "params": [{
+            "name": "label",
+            "select": {
+              "type": "point",
+              "encodings": ["x"],
+              "nearest": true,
+              "on": "mouseover"
+            }
+          }],
+          "mark": "point",
+          "encoding": {
+            "opacity": {
+              "condition": {
+                "param": "label",
+                "empty": false,
+                "value": 1
+              },
+              "value": 0
+            }
+          }
+        }
+      ]
     },
     {
-      "mark": {
-        "type": "text",
-        "align": "right",
-        "baseline": "middle",
-        "dx": -12,
-        "fontSize": 11.5,
-        "fontStyle": "italic"
-      },
-      "encoding": {
-        "text": {"field": "Drug Typ", "type": "nominal"},
-        "color": {"value": "black"},
-        "opacity": {
-          "condition": {
-            "test": "datum['Drug Typ'] == 'Cannabis' || datum['Drug Typ'] == 'Ecstasy' || datum['Drug Typ'] == 'Meth'",
-            "value": 1
-          },
-          "value": 0
+      "transform": [{"filter": {"param": "label", "empty": false}}],
+      "layer": [
+        {
+          "mark": {"type": "rule", "color": "gray"},
+          "encoding": {
+            "x": {"type": "temporal", "field": "Year", "aggregate": "min"}
+          }
         },
-          "tooltip": [
-          {"field": "Drug Type", "type": "nominal"},
-          {"field": "Percentage", "type": "quantitative", "format": ","},
-          {"field": "Source", "type": "nominal"},
-          {"field": "Year", "timeUnit": "year"}
-            ]
-      }
+        {
+          "encoding": {
+            "text": {"type": "quantitative", "field": "Percentage"},
+            "x": {"type": "temporal", "field": "Year"},
+            "y": {"type": "quantitative", "field": "Percentage"}
+          },
+          "layer": [
+            {
+              "mark": {
+                "type": "text",
+                "stroke": "white",
+                "strokeWidth": 2,
+                "align": "left",
+                "dx": 5,
+                "dy": -5
+              }
+            },
+            {
+              "mark": {"type": "text", "align": "left", "dx": 5, "dy": -5},
+              "encoding": {
+                "color": {"type": "nominal", "field": "Drug"}
+              }
+            }
+          ]
+        }
+      ]
     }
   ]
 }
