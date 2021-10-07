@@ -31,6 +31,6 @@
       "column": {"field": "Source", "title": "Source"}
     },
     "view": {"stroke": null},
-    "config": {"legend": {"orient": "right", "direction": "horizontal"}}
+    "config": {"legend": {"orient": "bottom", "direction": "horizontal"}}
   }
   
