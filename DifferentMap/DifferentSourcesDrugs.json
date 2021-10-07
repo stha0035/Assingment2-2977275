@@ -1,0 +1,36 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/SourceOfDrugs2001.csv"},
+     "width": 100,
+      "height": 200,
+    "title": "Percentage of Drugs From Different Sources",
+    "transform": [
+      {"pivot": "Year", "value": "Percentage", "groupby": ["Source", "Drug"]},
+      {"fold": ["2010", "2013","2016","2019"], "as": ["Year", "Percentage"]},
+      {"calculate": "toNumber(datum.Year)", "as": "year"},
+      {"calculate": "datum['2010'] - datum['2019']", "as": "delta"}
+    ],
+    "mark": "trail",
+    "encoding": {
+      "x": {"field": "Year", "title": null},
+      "y": {"field": "Drug", "title": "Drug Type"},
+      "size": {
+        "field": "Percentage",
+        "type": "quantitative",
+        "scale": {"range": [5, 15]},
+        "legend": {"values": [5, 70]},
+        "title": "Percentage"
+      },
+      "tooltip": [{"field": "Year", "type": "quantitative"}, {"field": "Percentage"}],
+      "color": {
+        "field": "delta",
+        "type": "quantitative",
+        "scale": {"domainMid": 0},
+        "title": "Percentage (%)"
+      },
+      "column": {"field": "Source", "title": "Source"}
+    },
+    "view": {"stroke": null},
+    "config": {"legend": {"orient": "right", "direction": "horizontal"}}
+  }
+  
