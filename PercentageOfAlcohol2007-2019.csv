@@ -1,0 +1,241 @@
+State,Status,Year,Percentage
+New South Wales,Daily,2007,8.4
+New South Wales,Daily,2010,7.5
+New South Wales,Daily,2013,6.7
+New South Wales,Daily,2016,6.4
+New South Wales,Daily,2019,5.7
+New South Wales,Weekly,2007,39.7
+New South Wales,Weekly,2010,38.4
+New South Wales,Weekly,2013,36.0
+New South Wales,Weekly,2016,36.0
+New South Wales,Weekly,2019,33.3
+New South Wales,Monthly,2007,18.8
+New South Wales,Monthly,2010,19.0
+New South Wales,Monthly,2013,20.0
+New South Wales,Monthly,2016,19.4
+New South Wales,Monthly,2019,20.6
+New South Wales,Less often than monthly,2007,13.1
+New South Wales,Less often than monthly,2010,13.2
+New South Wales,Less often than monthly,2013,14.1
+New South Wales,Less often than monthly,2016,14.9
+New South Wales,Less often than monthly,2019,14.7
+New South Wales,Ex-drinker,2007,7.2
+New South Wales,Ex-drinker,2010,7.4
+New South Wales,Ex-drinker,2013,7.1
+New South Wales,Ex-drinker,2016,7.2
+New South Wales,Ex-drinker,2019,9.3
+New South Wales,Never a full glass ,2007,12.7
+New South Wales,Never a full glass ,2010,14.4
+New South Wales,Never a full glass ,2013,16.2
+New South Wales,Never a full glass ,2016,16.2
+New South Wales,Never a full glass ,2019,16.4
+Victoria,Daily,2007,7.4
+Victoria,Daily,2010,6.7
+Victoria,Daily,2013,5.7
+Victoria,Daily,2016,5.0
+Victoria,Daily,2019,4.3
+Victoria,Weekly,2007,40.2
+Victoria,Weekly,2010,38.0
+Victoria,Weekly,2013,36.7
+Victoria,Weekly,2016,35.4
+Victoria,Weekly,2019,35.3
+Victoria,Monthly,2007,20.6
+Victoria,Monthly,2010,20.4
+Victoria,Monthly,2013,21.2
+Victoria,Monthly,2016,21.8
+Victoria,Monthly,2019,21.7
+Victoria,Less often than monthly,2007,14.5
+Victoria,Less often than monthly,2010,13.5
+Victoria,Less often than monthly,2013,13.7
+Victoria,Less often than monthly,2016,15.2
+Victoria,Less often than monthly,2019,15.1
+Victoria,Ex-drinker,2007,6.9
+Victoria,Ex-drinker,2010,7.8
+Victoria,Ex-drinker,2013,6.5
+Victoria,Ex-drinker,2016,7.0
+Victoria,Ex-drinker,2019,8.8
+Victoria,Never a full glass ,2007,10.4
+Victoria,Never a full glass ,2010,13.6
+Victoria,Never a full glass ,2013,16.2
+Victoria,Never a full glass ,2016,15.7
+Victoria,Never a full glass ,2019,14.7
+Queensland,Daily,2007,8.5
+Queensland,Daily,2010,8.5
+Queensland,Daily,2013,7.6
+Queensland,Daily,2016,6.5
+Queensland,Daily,2019,6.5
+Queensland,Weekly,2007,42.4
+Queensland,Weekly,2010,40.7
+Queensland,Weekly,2013,37.9
+Queensland,Weekly,2016,35.9
+Queensland,Weekly,2019,35.1
+Queensland,Monthly,2007,19.0
+Queensland,Monthly,2010,20.8
+Queensland,Monthly,2013,19.8
+Queensland,Monthly,2016,21.5
+Queensland,Monthly,2019,21.7
+Queensland,Less often than monthly,2007,14.9
+Queensland,Less often than monthly,2010,13.0
+Queensland,Less often than monthly,2013,16.0
+Queensland,Less often than monthly,2016,16.2
+Queensland,Less often than monthly,2019,17.2
+Queensland,Ex-drinker,2007,7.0
+Queensland,Ex-drinker,2010,7.8
+Queensland,Ex-drinker,2013,7.0
+Queensland,Ex-drinker,2016,7.9
+Queensland,Ex-drinker,2019,8.4
+Queensland,Never a full glass ,2007,8.2
+Queensland,Never a full glass ,2010,9.2
+Queensland,Never a full glass ,2013,11.7
+Queensland,Never a full glass ,2016,11.8
+Queensland,Never a full glass ,2019,11.1
+Western Australia,Daily,2007,10.0
+Western Australia,Daily,2010,7.7
+Western Australia,Daily,2013,7.1
+Western Australia,Daily,2016,6.5
+Western Australia,Daily,2019,5.0
+Western Australia,Weekly,2007,47.1
+Western Australia,Weekly,2010,43.8
+Western Australia,Weekly,2013,43.6
+Western Australia,Weekly,2016,37.2
+Western Australia,Weekly,2019,36.0
+Western Australia,Monthly,2007,18.0
+Western Australia,Monthly,2010,19.0
+Western Australia,Monthly,2013,20.7
+Western Australia,Monthly,2016,19.3
+Western Australia,Monthly,2019,18.8
+Western Australia,Less often than monthly,2007,11.5
+Western Australia,Less often than monthly,2010,12.7
+Western Australia,Less often than monthly,2013,11.7
+Western Australia,Less often than monthly,2016,11.8
+Western Australia,Less often than monthly,2019,13.5
+Western Australia,Ex-drinker,2007,5.7
+Western Australia,Ex-drinker,2010,7.1
+Western Australia,Ex-drinker,2013,6.3
+Western Australia,Ex-drinker,2016,9.9
+Western Australia,Ex-drinker,2019,9.0
+Western Australia,Never a full glass ,2007,7.7
+Western Australia,Never a full glass ,2010,9.8
+Western Australia,Never a full glass ,2013,10.5
+Western Australia,Never a full glass ,2016,15.4
+Western Australia,Never a full glass ,2019,17.7
+South Australia,Daily,2007,8.0
+South Australia,Daily,2010,6.1
+South Australia,Daily,2013,6.6
+South Australia,Daily,2016,6.0
+South Australia,Daily,2019,5.8
+South Australia,Weekly,2007,42.0
+South Australia,Weekly,2010,41.0
+South Australia,Weekly,2013,38.5
+South Australia,Weekly,2016,36.0
+South Australia,Weekly,2019,36.8
+South Australia,Monthly,2007,19.9
+South Australia,Monthly,2010,20.4
+South Australia,Monthly,2013,21.2
+South Australia,Monthly,2016,22.4
+South Australia,Monthly,2019,21.6
+South Australia,Less often than monthly,2007,14.3
+South Australia,Less often than monthly,2010,13.4
+South Australia,Less often than monthly,2013,14.2
+South Australia,Less often than monthly,2016,14.7
+South Australia,Less often than monthly,2019,15.0
+South Australia,Ex-drinker,2007,7.8
+South Australia,Ex-drinker,2010,8.2
+South Australia,Ex-drinker,2013,7.8
+South Australia,Ex-drinker,2016,6.6
+South Australia,Ex-drinker,2019,8.5
+South Australia,Never a full glass ,2007,8.0
+South Australia,Never a full glass ,2010,10.9
+South Australia,Never a full glass ,2013,11.8
+South Australia,Never a full glass ,2016,14.3
+South Australia,Never a full glass ,2019,12.4
+Tasmania,Daily,2007,7.0
+Tasmania,Daily,2010,6.5
+Tasmania,Daily,2013,6.0
+Tasmania,Daily,2016,5.7
+Tasmania,Daily,2019,5.1
+Tasmania,Weekly,2007,40.7
+Tasmania,Weekly,2010,39.9
+Tasmania,Weekly,2013,39.3
+Tasmania,Weekly,2016,37.5
+Tasmania,Weekly,2019,38.1
+Tasmania,Monthly,2007,22.0
+Tasmania,Monthly,2010,24.2
+Tasmania,Monthly,2013,21.9
+Tasmania,Monthly,2016,21.6
+Tasmania,Monthly,2019,22.8
+Tasmania,Less often than monthly,2007,15.8
+Tasmania,Less often than monthly,2010,14.8
+Tasmania,Less often than monthly,2013,16.6
+Tasmania,Less often than monthly,2016,18.2
+Tasmania,Less often than monthly,2019,17.2
+Tasmania,Ex-drinker,2007,6.3
+Tasmania,Ex-drinker,2010,7.4
+Tasmania,Ex-drinker,2013,6.9
+Tasmania,Ex-drinker,2016,8.2
+Tasmania,Ex-drinker,2019,10.4
+Tasmania,Never a full glass ,2007,8.1
+Tasmania,Never a full glass ,2010,7.2
+Tasmania,Never a full glass ,2013,9.2
+Tasmania,Never a full glass ,2016,8.8
+Tasmania,Never a full glass ,2019,6.4
+Northern Territory,Daily,2007,10.9
+Northern Territory,Daily,2010,7.5
+Northern Territory,Daily,2013,9.3
+Northern Territory,Daily,2016,7.5
+Northern Territory,Daily,2019,8.2
+Northern Territory,Weekly,2007,44.3
+Northern Territory,Weekly,2010,45.5
+Northern Territory,Weekly,2013,44.8
+Northern Territory,Weekly,2016,37.9
+Northern Territory,Weekly,2019,37.7
+Northern Territory,Monthly,2007,17.7
+Northern Territory,Monthly,2010,20.2
+Northern Territory,Monthly,2013,18.0
+Northern Territory,Monthly,2016,18.0
+Northern Territory,Monthly,2019,18.6
+Northern Territory,Less often than monthly,2007,12.7
+Northern Territory,Less often than monthly,2010,13.0
+Northern Territory,Less often than monthly,2013,12.2
+Northern Territory,Less often than monthly,2016,13.6
+Northern Territory,Less often than monthly,2019,14.0
+Northern Territory,Ex-drinker,2007,8.0
+Northern Territory,Ex-drinker,2010,5.7
+Northern Territory,Ex-drinker,2013,7.5
+Northern Territory,Ex-drinker,2016,8.7
+Northern Territory,Ex-drinker,2019,8.8
+Northern Territory,Never a full glass ,2007,6.4
+Northern Territory,Never a full glass ,2010,8.1
+Northern Territory,Never a full glass ,2013,8.2
+Northern Territory,Never a full glass ,2016,14.4
+Northern Territory,Never a full glass ,2019,12.7
+Australian Capital Territory,Daily,2007,6.8
+Australian Capital Territory,Daily,2010,5.5
+Australian Capital Territory,Daily,2013,6.7
+Australian Capital Territory,Daily,2016,3.7
+Australian Capital Territory,Daily,2019,4.4
+Australian Capital Territory,Weekly,2007,48.3
+Australian Capital Territory,Weekly,2010,46.1
+Australian Capital Territory,Weekly,2013,44.4
+Australian Capital Territory,Weekly,2016,40.8
+Australian Capital Territory,Weekly,2019,38.2
+Australian Capital Territory,Monthly,2007,20.2
+Australian Capital Territory,Monthly,2010,21.4
+Australian Capital Territory,Monthly,2013,19.9
+Australian Capital Territory,Monthly,2016,19.2
+Australian Capital Territory,Monthly,2019,22.6
+Australian Capital Territory,Less often than monthly,2007,13.1
+Australian Capital Territory,Less often than monthly,2010,13.6
+Australian Capital Territory,Less often than monthly,2013,12.7
+Australian Capital Territory,Less often than monthly,2016,16.5
+Australian Capital Territory,Less often than monthly,2019,14.9
+Australian Capital Territory,Ex-drinker,2007,4.5
+Australian Capital Territory,Ex-drinker,2010,4.9
+Australian Capital Territory,Ex-drinker,2013,4.5
+Australian Capital Territory,Ex-drinker,2016,8.0
+Australian Capital Territory,Ex-drinker,2019,8.2
+Australian Capital Territory,Never a full glass ,2007,7.0
+Australian Capital Territory,Never a full glass ,2010,8.5
+Australian Capital Territory,Never a full glass ,2013,11.8
+Australian Capital Territory,Never a full glass ,2016,11.8
+Australian Capital Territory,Never a full glass ,2019,11.7

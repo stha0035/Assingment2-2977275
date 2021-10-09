@@ -56,13 +56,14 @@
       {"filter": "datum.Year == Year_above"}
     ],
     "projection": {"type": "equalEarth"},
-    "mark": {"type": "geoshape", "stroke": "White"},
+    "mark": {"type": "geoshape", "stroke": "black"},
     "encoding": {
     "shape": {"field": "geo", "type": "geojson"},
     "color": {"field": "Daily smoker", "type": "quantitative"},
     "tooltip": [
         {"field": "Entity", "type": "nominal", "title": "Country"},
-        {"title": "Daily smoker", "field": "Daily smoker", "type": "quantitative"}
+        {"title": "Daily smoker", "field": "Daily smoker", "type": "quantitative"},
+        {"title": "Year", "field": "Year", "type": "quantitative"}
              ]
           }
       },

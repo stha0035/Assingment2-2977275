@@ -2,17 +2,16 @@
   "params": [
           {
           "name": "Smoking_selection",
+          "value": "Daily",
           "bind": {
               "input": "select",
               "options": [
-                null,
                   "Daily",
                   "Occasional",
                   "Ex-smoker",
                   "Never smoked"
           ],
           "labels":[
-                  "Selection",
                   "Daily",
                   "Occasional",
                   "Ex-smoker",
@@ -35,8 +34,8 @@
       ],
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Percentage of People that Smoke",
-  "width": 600,
-  "height": 300,
+  "width": 450,
+  "height": 320,
   "data": {
     "url": "https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/UPDATED2001-2019.csv"
   },
@@ -57,15 +56,15 @@
     {"filter": "datum.Year == Year_above"}
   ],
   "projection": {"type": "equirectangular"},
-  "mark": {"type": "geoshape", "stroke": "White"},
+  "mark": {"type": "geoshape", "stroke": "black"},
   "encoding": {
     "shape": {"field": "geo", "type": "geojson"},
     "color": {"field": "Percentage", "type": "quantitative"},
     "tooltip": [
       {"field": "State", "type": "nominal", "title": "State"},
-      {"title": "Percentage", "field": "Percentage", "type": "quantitative"},
       {"title": "Year", "field": "Year", "type": "quantitative"},
-      {"title": "Smoking Status", "field": "Status", "type": "nominal"}
+      {"title": "Smoking Status", "field": "Status", "type": "nominal"},
+       {"title": "Percentage", "field": "Percentage", "type": "quantitative"}
     ]
      }
     }
