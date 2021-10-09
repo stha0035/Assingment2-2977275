@@ -2,16 +2,18 @@
   "params": [
           {
           "name": "Smoking_selection",
-          "value": "Daily",
+
           "bind": {
               "input": "select",
               "options": [
+                  "null",
                   "Daily",
                   "Occasional",
                   "Ex-smoker",
                   "Never smoked"
           ],
           "labels":[
+                  "Selection",
                   "Daily",
                   "Occasional",
                   "Ex-smoker",
@@ -40,10 +42,10 @@
       },
       "as": "geo"
     },
-    {"filter": "datum.Status == Smoking_selection"}
+    {"filter": "Smoking_selection== null || datum.Status == Smoking_selection"}
   ],
   "projection": {"type": "equirectangular"},
-  "mark": {"type": "geoshape", "stroke": "black"},
+  "mark": {"type": "geoshape"},
   "encoding": {
     "shape": {"field": "geo", "type": "geojson"},
     "color": {"field": "Percentage", "type": "quantitative"},
