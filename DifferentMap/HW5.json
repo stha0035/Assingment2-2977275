@@ -4,31 +4,30 @@
   "data": {
     "url": "https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/SourceOfDrugs2001.csv"
   },
-  "width": 400,
-  "height": 300,
+  "width": 350,
+  "height": 250,
   "params": [
-  {
-        "name": "Source_selection",
-        "bind": {
-        "input": "select",
-        "options": [
-              null,
+    {
+          "name": "Source_selection",
+          "value": "Friend",
+          "bind": {
+          "input": "select",
+          "options": [
+                "Friend",
+                "Relative or partner",
+                "Dealer",
+                "Other"
+          ],
+          "labels":[
               "Friend",
               "Relative or partner",
               "Dealer",
               "Other"
-        ],
-        "labels":[
-            "Show All",
-            "Friend",
-            "Relative or partner",
-            "Dealer",
-            "Other"
-        ],
-        "name": "Source Selection: "
-        }
-    }
-],
+          ],
+          "name": "Source Selection: "
+          }
+      }
+  ],
 "transform": [
       {"filter": "Source_selection == null || datum.Source == Source_selection"}
     ],

@@ -1,0 +1,89 @@
+{
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  h1{
+    font-weight: 900;
+  }
+   body{
+     background-color: lightgray;
+   }
+   .myPage{
+     width: 850px;    
+     background-color: white;   
+     margin: auto;
+     padding: 50px;
+     padding-top: 35px;
+  }
+  .widthofVis{
+    width: 100%;
+  }
+  .description h2, h1{
+    margin-top:0px;
+  }
+  .description-left{
+    padding-right: 20px;
+  }
+  .description-right {
+    padding-left: 0px;
+  }
+  .heading{
+    margin: px;
+  }
+  .small-font{
+      font-size: 14px;
+  }
+  .MainTittle{
+    background-color: rgb(255, 255, 204);
+    width: 850px;
+    height: 40px;
+    border: 2px solid black;
+    padding: -5px;
+    margin: 8px;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 100;
+  }
+  .tittle {
+    background-color: blue;
+    width: 850px;
+    height: 30px;
+    border: 2px solid black;
+    padding: -5px;
+    margin: 8px;
+    font-size: 10px;
+    font-style: italic;
+    font-weight: 100;
+  }
+  div.relative {
+    position: relative;
+    width: 850px;
+    height: 350px;
+    padding: -5px;
+    left:8px;
+    border: 1px solid #0a0a0a;
+  }
+  
+  div.absolute {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 300px;
+    height: 350px;
+  }
+  div.relative2 {
+    position: relative;
+    width: 850px;
+    height: 380px;
+    padding: -5px;
+    left:8px;
+    border: 1px solid #0a0a0a;
+  }
+  
+  div.absolute2 {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 300px;
+    height: 380px;
+  }
+

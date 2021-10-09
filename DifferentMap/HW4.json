@@ -1,4 +1,4 @@
-{
+{ 
     "params": [
             {
             "name": "Smoking_selection",
@@ -24,8 +24,8 @@
         ],
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": "Percentage of People that Smoke",
-    "width": 600,
-    "height": 300,
+    "width": 450,
+    "height": 320,
     "data": {
       "url": "https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/UPDATED2001-2019.csv"
     },
@@ -49,8 +49,9 @@
       "shape": {"field": "geo", "type": "geojson"},
       "color": {"field": "Percentage", "type": "quantitative"},
       "tooltip": [
-        {"field": "State", "type": "nominal", "title": "country"},
-        {"title": "Percentage", "field": "Percentage", "type": "quantitative"}
+        {"field": "State", "type": "nominal", "title": "Country"},
+        {"title": "Percentage", "field": "Percentage", "type": "quantitative"},
+        {"title": "Status", "field": "Status", "type": "nominal"}
       ]
     }
-  }
+}
