@@ -24,11 +24,11 @@ New South Wales,Ex-drinker,2010,7.4
 New South Wales,Ex-drinker,2013,7.1
 New South Wales,Ex-drinker,2016,7.2
 New South Wales,Ex-drinker,2019,9.3
-New South Wales,Never a full glass ,2007,12.7
-New South Wales,Never a full glass ,2010,14.4
-New South Wales,Never a full glass ,2013,16.2
-New South Wales,Never a full glass ,2016,16.2
-New South Wales,Never a full glass ,2019,16.4
+New South Wales,Never a full glass,2007,12.7
+New South Wales,Never a full glass,2010,14.4
+New South Wales,Never a full glass,2013,16.2
+New South Wales,Never a full glass,2016,16.2
+New South Wales,Never a full glass,2019,16.4
 Victoria,Daily,2007,7.4
 Victoria,Daily,2010,6.7
 Victoria,Daily,2013,5.7
@@ -54,11 +54,11 @@ Victoria,Ex-drinker,2010,7.8
 Victoria,Ex-drinker,2013,6.5
 Victoria,Ex-drinker,2016,7.0
 Victoria,Ex-drinker,2019,8.8
-Victoria,Never a full glass ,2007,10.4
-Victoria,Never a full glass ,2010,13.6
-Victoria,Never a full glass ,2013,16.2
-Victoria,Never a full glass ,2016,15.7
-Victoria,Never a full glass ,2019,14.7
+Victoria,Never a full glass,2007,10.4
+Victoria,Never a full glass,2010,13.6
+Victoria,Never a full glass,2013,16.2
+Victoria,Never a full glass,2016,15.7
+Victoria,Never a full glass,2019,14.7
 Queensland,Daily,2007,8.5
 Queensland,Daily,2010,8.5
 Queensland,Daily,2013,7.6
@@ -84,7 +84,7 @@ Queensland,Ex-drinker,2010,7.8
 Queensland,Ex-drinker,2013,7.0
 Queensland,Ex-drinker,2016,7.9
 Queensland,Ex-drinker,2019,8.4
-Queensland,Never a full glass ,2007,8.2
+Queensland,Never a full glass,2007,8.2
 Queensland,Never a full glass ,2010,9.2
 Queensland,Never a full glass ,2013,11.7
 Queensland,Never a full glass ,2016,11.8
@@ -145,10 +145,10 @@ South Australia,Ex-drinker,2013,7.8
 South Australia,Ex-drinker,2016,6.6
 South Australia,Ex-drinker,2019,8.5
 South Australia,Never a full glass ,2007,8.0
-South Australia,Never a full glass ,2010,10.9
-South Australia,Never a full glass ,2013,11.8
-South Australia,Never a full glass ,2016,14.3
-South Australia,Never a full glass ,2019,12.4
+South Australia,Never a full glass,2010,10.9
+South Australia,Never a full glass,2013,11.8
+South Australia,Never a full glass,2016,14.3
+South Australia,Never a full glass,2019,12.4
 Tasmania,Daily,2007,7.0
 Tasmania,Daily,2010,6.5
 Tasmania,Daily,2013,6.0
@@ -174,11 +174,11 @@ Tasmania,Ex-drinker,2010,7.4
 Tasmania,Ex-drinker,2013,6.9
 Tasmania,Ex-drinker,2016,8.2
 Tasmania,Ex-drinker,2019,10.4
-Tasmania,Never a full glass ,2007,8.1
-Tasmania,Never a full glass ,2010,7.2
-Tasmania,Never a full glass ,2013,9.2
-Tasmania,Never a full glass ,2016,8.8
-Tasmania,Never a full glass ,2019,6.4
+Tasmania,Never a full glass,2007,8.1
+Tasmania,Never a full glass,2010,7.2
+Tasmania,Never a full glass,2013,9.2
+Tasmania,Never a full glass,2016,8.8
+Tasmania,Never a full glass,2019,6.4
 Northern Territory,Daily,2007,10.9
 Northern Territory,Daily,2010,7.5
 Northern Territory,Daily,2013,9.3
@@ -204,11 +204,11 @@ Northern Territory,Ex-drinker,2010,5.7
 Northern Territory,Ex-drinker,2013,7.5
 Northern Territory,Ex-drinker,2016,8.7
 Northern Territory,Ex-drinker,2019,8.8
-Northern Territory,Never a full glass ,2007,6.4
-Northern Territory,Never a full glass ,2010,8.1
-Northern Territory,Never a full glass ,2013,8.2
-Northern Territory,Never a full glass ,2016,14.4
-Northern Territory,Never a full glass ,2019,12.7
+Northern Territory,Never a full glass,2007,6.4
+Northern Territory,Never a full glass,2010,8.1
+Northern Territory,Never a full glass,2013,8.2
+Northern Territory,Never a full glass,2016,14.4
+Northern Territory,Never a full glass,2019,12.7
 Australian Capital Territory,Daily,2007,6.8
 Australian Capital Territory,Daily,2010,5.5
 Australian Capital Territory,Daily,2013,6.7
@@ -234,8 +234,8 @@ Australian Capital Territory,Ex-drinker,2010,4.9
 Australian Capital Territory,Ex-drinker,2013,4.5
 Australian Capital Territory,Ex-drinker,2016,8.0
 Australian Capital Territory,Ex-drinker,2019,8.2
-Australian Capital Territory,Never a full glass ,2007,7.0
-Australian Capital Territory,Never a full glass ,2010,8.5
-Australian Capital Territory,Never a full glass ,2013,11.8
-Australian Capital Territory,Never a full glass ,2016,11.8
-Australian Capital Territory,Never a full glass ,2019,11.7
+Australian Capital Territory,Never a full glass,2007,7.0
+Australian Capital Territory,Never a full glass,2010,8.5
+Australian Capital Territory,Never a full glass,2013,11.8
+Australian Capital Territory,Never a full glass,2016,11.8
+Australian Capital Territory,Never a full glass,2019,11.7
