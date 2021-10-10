@@ -1,0 +1,74 @@
+{
+    "params": [
+            {
+            "name": "Smoking_selection",
+            "value": "Cannabis",
+            "bind": {
+                "input": "select",
+                "options": [
+                    "Cannabis",
+                    "Ecstasy",
+                    "Meth",
+                    "Cocaine",
+                    "Any illicit"
+            ],
+            "labels":[
+                    "Cannabis",
+                    "Ecstasy",
+                    "Meth",
+                    "Cocaine",
+                    "Any illicit"
+                    ],
+                        "name": "Smoking Status: "
+                    }
+            },
+          {
+            "name": "Year_above",
+            "value": 2007,
+            "bind": {
+            "input": "range",    
+            "min": 2007,
+            "max": 2019,
+            "step": 3,
+            "name": "Years: "
+            }
+          }   
+        ],
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Percentage of People do Different Drugs",
+    "width": 450,
+    "height": 320,
+    "data": {
+      "url": "https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/PercentageOfDifferentDrugs2007-2019.csv"
+    },
+    "layer":[{
+    "transform": [
+      {
+        "lookup": "State",
+        "from": {
+          "data": {
+            "url": "https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/AustralianStates%20(6).topojson",
+            "format": {"type": "topojson", "feature": "AustralianStates"}
+          },
+          "key": "properties.STATE_NAME"
+        },
+        "as": "geo"
+      },
+      {"filter": "Smoking_selection == null || datum.Drug == Smoking_selection"},
+      {"filter": "datum.Year == Year_above"}
+    ],
+    "projection": {"type": "equirectangular"},
+    "mark": {"type": "geoshape", "stroke": "black"},
+    "encoding": {
+      "shape": {"field": "geo", "type": "geojson"},
+      "color": {"field": "Percentage", "type": "quantitative"},
+      "tooltip": [
+        {"field": "State", "type": "nominal", "title": "State"},
+        {"title": "Year", "field": "Year", "type": "quantitative"},
+        {"title": "Drug Type", "field": "Drug", "type": "nominal"},
+         {"title": "Percentage", "field": "Percentage", "type": "quantitative"}
+      ]
+       }
+      }
+    ]
+  }
