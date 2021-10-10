@@ -1,74 +1,128 @@
 {
-    "params": [
-            {
-            "name": "Smoking_selection",
-            "value": "Cannabis",
-            "bind": {
-                "input": "select",
-                "options": [
-                    "Cannabis",
-                    "Ecstasy",
-                    "Meth",
-                    "Cocaine",
-                    "Any illicit"
-            ],
-            "labels":[
-                    "Cannabis",
-                    "Ecstasy",
-                    "Meth",
-                    "Cocaine",
-                    "Any illicit"
-                    ],
-                        "name": "Smoking Status: "
-                    }
-            },
+  "params": [
           {
-            "name": "Year_above",
-            "value": 2007,
-            "bind": {
-            "input": "range",    
-            "min": 2007,
-            "max": 2019,
-            "step": 3,
-            "name": "Years: "
-            }
-          }   
-        ],
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Percentage of People do Different Drugs",
-    "width": 450,
-    "height": 320,
-    "data": {
-      "url": "https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/PercentageOfDifferentDrugs2007-2019.csv"
-    },
-    "layer":[{
-    "transform": [
-      {
-        "lookup": "State",
-        "from": {
-          "data": {
-            "url": "https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/AustralianStates%20(6).topojson",
-            "format": {"type": "topojson", "feature": "AustralianStates"}
+          "name": "Smoking_selection",
+          "value": "Cannabis",
+          "bind": {
+              "input": "select",
+              "options": [
+                  "Cannabis",
+                  "Ecstasy",
+                  "Meth",
+                  "Cocaine",
+                  "Any illicit"
+          ],
+          "labels":[
+                  "Cannabis",
+                  "Ecstasy",
+                  "Meth",
+                  "Cocaine",
+                  "Any illicit"
+                  ],
+                      "name": "Smoking Status: "
+                  }
           },
-          "key": "properties.STATE_NAME"
+        {
+          "name": "Year_above",
+          "value": 2007,
+          "bind": {
+          "input": "range",    
+          "min": 2007,
+          "max": 2019,
+          "step": 3,
+          "name": "Years: "
+          }
+        }   
+      ],
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Percentage of People do Different Drugs",
+  "width": 450,
+  "height": 320,
+  "data": {
+    "url": "https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/PercentageOfDifferentDrugs2007-2019.csv"
+  },
+  "layer":[{
+    "params": [
+    {
+        "name": "stroke",
+        "select": { "type": "point", "on": "mouseover" }
+    }
+  ],
+  "transform": [
+    {
+      "lookup": "State",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/AustralianStates%20(6).topojson",
+          "format": {"type": "topojson", "feature": "AustralianStates"}
         },
-        "as": "geo"
+        "key": "properties.STATE_NAME"
       },
-      {"filter": "Smoking_selection == null || datum.Drug == Smoking_selection"},
-      {"filter": "datum.Year == Year_above"}
+      "as": "geo"
+    },
+    {"filter": "Smoking_selection == null || datum.Drug == Smoking_selection"},
+    {"filter": "datum.Year == Year_above"}
+  ],
+  "projection": {"type": "equirectangular"},
+  "mark": {"type": "geoshape", "stroke": "black"},
+  "encoding": {
+    "shape": {"field": "geo", "type": "geojson"},
+    "color": {"field": "Percentage", "type": "quantitative"},
+    "tooltip": [
+      {"field": "State", "type": "nominal", "title": "State"},
+      {"title": "Year", "field": "Year", "type": "quantitative"},
+      {"title": "Drug Type", "field": "Drug", "type": "nominal"},
+       {"title": "Percentage", "field": "Percentage", "type": "quantitative"}
     ],
-    "projection": {"type": "equirectangular"},
-    "mark": {"type": "geoshape", "stroke": "black"},
-    "encoding": {
-      "shape": {"field": "geo", "type": "geojson"},
-      "color": {"field": "Percentage", "type": "quantitative"},
-      "tooltip": [
-        {"field": "State", "type": "nominal", "title": "State"},
-        {"title": "Year", "field": "Year", "type": "quantitative"},
-        {"title": "Drug Type", "field": "Drug", "type": "nominal"},
-         {"title": "Percentage", "field": "Percentage", "type": "quantitative"}
-      ]
-       }
+    "stroke": {
+                "condition": {
+                    "param": "stroke",
+                    "empty": false,
+                    "value": "black"
+                },
+                "value": "grey"
+            },
+            "strokeWidth": {
+                "condition": {
+                    "param": "stroke",
+                    "empty": false,
+                    "value": 1
+                },
+                "value": 1
+            },
+            "opacity": {
+                "condition": { "param": "stroke", "value": 1 },
+                "value": 1
+            }
       }
-    ]
+    },
+  {
+    "data": {
+      "url": "https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/LatLong.csv"
+    },
+    "encoding": {
+      "longitude": {
+        "field": "Longitude",
+        "type": "quantitative"
+      },
+      "latitude": {
+        "field": "Latitude",
+        "type": "quantitative"
+      }
+    },
+    "layer": [ 
+    {
+      "mark": {
+        "type": "text",
+        "fontSize":10,
+        "dy": -10,
+        "fontStyle": "italic",
+        "fontWeight": "bold"
+      },
+      "encoding": {
+        "text": {"field": "Name", "type": "nominal"}
+      }
+    }]
   }
+  ]
+}

@@ -40,6 +40,13 @@
     "url": "https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/UPDATED2001-2019.csv"
   },
   "layer":[{
+    "params": [
+      {
+          "name": "stroke",
+          "select": { "type": "point", "on": "mouseover" }
+      }
+    ],
+
   "transform": [
     {
       "lookup": "State",
@@ -65,8 +72,56 @@
       {"title": "Year", "field": "Year", "type": "quantitative"},
       {"title": "Smoking Status", "field": "Status", "type": "nominal"},
        {"title": "Percentage", "field": "Percentage", "type": "quantitative"}
-    ]
+    ],
+    "stroke": {
+                  "condition": {
+                      "param": "stroke",
+                      "empty": false,
+                      "value": "black"
+                  },
+                  "value": "grey"
+              },
+              "strokeWidth": {
+                  "condition": {
+                      "param": "stroke",
+                      "empty": false,
+                      "value": 1
+                  },
+                  "value": 1
+              },
+              "opacity": {
+                  "condition": { "param": "stroke", "value": 1 },
+                  "value": 1
+              }
      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/LatLong.csv"
+      },
+      "encoding": {
+        "longitude": {
+          "field": "Longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "Latitude",
+          "type": "quantitative"
+        }
+      },
+      "layer": [ 
+      {
+        "mark": {
+          "type": "text",
+          "fontSize":10,
+          "dy": -10,
+          "fontStyle": "italic",
+          "fontWeight": "bold"
+        },
+        "encoding": {
+          "text": {"field": "Name", "type": "nominal"}
+        }
+      }]
     }
   ]
 }
