@@ -1,225 +1,225 @@
-State,Status,Year,Percentage
-New South Wales,Daily,2001,18.2
-New South Wales,Daily,2004,16.5
-New South Wales,Daily,2007,16.3
-New South Wales,Daily,2010,14.2
-New South Wales,Daily,2013,11.7
-New South Wales,Daily,2016,11.5
-New South Wales,Daily,2019,9.5
-New South Wales,Occasional,2001,3.6
-New South Wales,Occasional,2004,3.3
-New South Wales,Occasional,2007,2.6
-New South Wales,Occasional,2010,2.6
-New South Wales,Occasional,2013,3
-New South Wales,Occasional,2016,2.5
-New South Wales,Occasional,2019,2.8
-New South Wales,Ex-smoker,2001,25.7
-New South Wales,Ex-smoker,2004,24.8
-New South Wales,Ex-smoker,2007,24.7
-New South Wales,Ex-smoker,2010,23.2
-New South Wales,Ex-smoker,2013,23
-New South Wales,Ex-smoker,2016,21.8
-New South Wales,Ex-smoker,2019,22.3
-New South Wales,Never smoked,2001,52.8
-New South Wales,Never smoked,2004,55.4
-New South Wales,Never smoked,2007,56.3
-New South Wales,Never smoked,2010,60
-New South Wales,Never smoked,2013,62.3
-New South Wales,Never smoked,2016,64.2
-New South Wales,Never smoked,2019,65.3
-Victoria,Daily,2001,19.2
-Victoria,Daily,2004,17.5
-Victoria,Daily,2007,16.5
-Victoria,Daily,2010,14.9
-Victoria,Daily,2013,12.2
-Victoria,Daily,2016,11.7
-Victoria,Daily,2019,10.2
-Victoria,Occasional,2001,4.6
-Victoria,Occasional,2004,3.6
-Victoria,Occasional,2007,3.2
-Victoria,Occasional,2010,3.4
-Victoria,Occasional,2013,3.6
-Victoria,Occasional,2016,2.9
-Victoria,Occasional,2019,3.5
-Victoria,Ex-smoker,2001,25.6
-Victoria,Ex-smoker,2004,25.5
-Victoria,Ex-smoker,2007,24.4
-Victoria,Ex-smoker,2010,22.5
-Victoria,Ex-smoker,2013,22.6
-Victoria,Ex-smoker,2016,22.2
-Victoria,Ex-smoker,2019,21.6
-Victoria,Never smoked,2001,50.7
-Victoria,Never smoked,2004,53.4
-Victoria,Never smoked,2007,55.9
-Victoria,Never smoked,2010,59.2
-Victoria,Never smoked,2013,61.6
-Victoria,Never smoked,2016,63.2
-Victoria,Never smoked,2019,64.7
-Queensland,Daily,2001,21
-Queensland,Daily,2004,19.8
-Queensland,Daily,2007,17.2
-Queensland,Daily,2010,16.7
-Queensland,Daily,2013,15
-Queensland,Daily,2016,14.5
-Queensland,Daily,2019,13.5
-Queensland,Occasional,2001,3.2
-Queensland,Occasional,2004,2.9
-Queensland,Occasional,2007,2.7
-Queensland,Occasional,2010,2.9
-Queensland,Occasional,2013,2.4
-Queensland,Occasional,2016,2.6
-Queensland,Occasional,2019,2.9
-Queensland,Ex-smoker,2001,26.5
-Queensland,Ex-smoker,2004,28
-Queensland,Ex-smoker,2007,25.7
-Queensland,Ex-smoker,2010,25.8
-Queensland,Ex-smoker,2013,25
-Queensland,Ex-smoker,2016,24.7
-Queensland,Ex-smoker,2019,24.7
-Queensland,Never smoked,2001,49.2
-Queensland,Never smoked,2004,49.3
-Queensland,Never smoked,2007,54.5
-Queensland,Never smoked,2010,54.6
-Queensland,Never smoked,2013,57.6
-Queensland,Never smoked,2016,58.1
-Queensland,Never smoked,2019,58.9
-Western Australia,Daily,2001,20
-Western Australia,Daily,2004,15.6
-Western Australia,Daily,2007,14.8
-Western Australia,Daily,2010,15.6
-Western Australia,Daily,2013,12.4
-Western Australia,Daily,2016,11.5
-Western Australia,Daily,2019,11.9
-Western Australia,Occasional,2001,4.4
-Western Australia,Occasional,2004,3
-Western Australia,Occasional,2007,2.6
-Western Australia,Occasional,2010,3.1
-Western Australia,Occasional,2013,3.4
-Western Australia,Occasional,2016,3.2
-Western Australia,Occasional,2019,3
-Western Australia,Ex-smoker,2001,26.5
-Western Australia,Ex-smoker,2004,29
-Western Australia,Ex-smoker,2007,28.3
-Western Australia,Ex-smoker,2010,24.3
-Western Australia,Ex-smoker,2013,27.5
-Western Australia,Ex-smoker,2016,22.4
-Western Australia,Ex-smoker,2019,22.7
-Western Australia,Never smoked,2001,49.1
-Western Australia,Never smoked,2004,52.4
-Western Australia,Never smoked,2007,54.3
-Western Australia,Never smoked,2010,57
-Western Australia,Never smoked,2013,56.7
-Western Australia,Never smoked,2016,62.9
-Western Australia,Never smoked,2019,62.4
-South Australia,Daily,2001,20.1
-South Australia,Daily,2004,16.5
-South Australia,Daily,2007,16.5
-South Australia,Daily,2010,15
-South Australia,Daily,2013,12.8
-South Australia,Daily,2016,10.8
-South Australia,Daily,2019,11.9
-South Australia,Occasional,2001,3.4
-South Australia,Occasional,2004,2.6
-South Australia,Occasional,2007,3.2
-South Australia,Occasional,2010,2.4
-South Australia,Occasional,2013,2.6
-South Australia,Occasional,2016,2.4
-South Australia,Occasional,2019,2.2
-South Australia,Ex-smoker,2001,28.2
-South Australia,Ex-smoker,2004,28.8
-South Australia,Ex-smoker,2007,24.1
-South Australia,Ex-smoker,2010,25.8
-South Australia,Ex-smoker,2013,24.9
-South Australia,Ex-smoker,2016,23.8
-South Australia,Ex-smoker,2019,24.7
-South Australia,Never smoked,2001,48.4
-South Australia,Never smoked,2004,52
-South Australia,Never smoked,2007,56.2
-South Australia,Never smoked,2010,56.8
-South Australia,Never smoked,2013,59.7
-South Australia,Never smoked,2016,62.9
-South Australia,Never smoked,2019,61.1
-Tasmania,Daily,2001,20.6
-Tasmania,Daily,2004,21.5
-Tasmania,Daily,2007,22.6
-Tasmania,Daily,2010,15.9
-Tasmania,Daily,2013,16.1
-Tasmania,Daily,2016,16
-Tasmania,Daily,2019,12.8
-Tasmania,Occasional,2001,3.7
-Tasmania,Occasional,2004,2.6
-Tasmania,Occasional,2007,2.2
-Tasmania,Occasional,2010,2.6
-Tasmania,Occasional,2013,2.3
-Tasmania,Occasional,2016,2.8
-Tasmania,Occasional,2019,1.3
-Tasmania,Ex-smoker,2001,28.6
-Tasmania,Ex-smoker,2004,28.2
-Tasmania,Ex-smoker,2007,26.5
-Tasmania,Ex-smoker,2010,28.7
-Tasmania,Ex-smoker,2013,28.1
-Tasmania,Ex-smoker,2016,25.2
-Tasmania,Ex-smoker,2019,25.9
-Tasmania,Never smoked,2001,47.1
-Tasmania,Never smoked,2004,47.6
-Tasmania,Never smoked,2007,48.6
-Tasmania,Never smoked,2010,52.9
-Tasmania,Never smoked,2013,53.5
-Tasmania,Never smoked,2016,56
-Tasmania,Never smoked,2019,60
-Northern Territory,Daily,2001,27.9
-Northern Territory,Daily,2004,27.4
-Northern Territory,Daily,2007,25.3
-Northern Territory,Daily,2010,22.2
-Northern Territory,Daily,2013,21.3
-Northern Territory,Daily,2016,17.2
-Northern Territory,Daily,2019,14.7
-Northern Territory,Occasional,2001,3.4
-Northern Territory,Occasional,2004,3.6
-Northern Territory,Occasional,2007,2.4
-Northern Territory,Occasional,2010,3.6
-Northern Territory,Occasional,2013,2.9
-Northern Territory,Occasional,2016,3.7
-Northern Territory,Occasional,2019,3.5
-Northern Territory,Ex-smoker,2001,26.4
-Northern Territory,Ex-smoker,2004,25.8
-Northern Territory,Ex-smoker,2007,22.4
-Northern Territory,Ex-smoker,2010,24.1
-Northern Territory,Ex-smoker,2013,25.7
-Northern Territory,Ex-smoker,2016,23.9
-Northern Territory,Ex-smoker,2019,22.3
-Northern Territory,Never smoked,2001,42.4
-Northern Territory,Never smoked,2004,43.2
-Northern Territory,Never smoked,2007,49.8
-Northern Territory,Never smoked,2010,50
-Northern Territory,Never smoked,2013,50.1
-Northern Territory,Never smoked,2016,55.2
-Northern Territory,Never smoked,2019,59.5
-Australian Capital Territory,Daily,2001,18.4
-Australian Capital Territory,Daily,2004,16.2
-Australian Capital Territory,Daily,2007,14.7
-Australian Capital Territory,Daily,2010,11
-Australian Capital Territory,Daily,2013,9.7
-Australian Capital Territory,Daily,2016,9.5
-Australian Capital Territory,Daily,2019,8.2
-Australian Capital Territory,Occasional,2001,4.2
-Australian Capital Territory,Occasional,2004,4.6
-Australian Capital Territory,Occasional,2007,2.5
-Australian Capital Territory,Occasional,2010,2.8
-Australian Capital Territory,Occasional,2013,2.5
-Australian Capital Territory,Occasional,2016,2.1
-Australian Capital Territory,Occasional,2019,1.8
-Australian Capital Territory,Ex-smoker,2001,27.7
-Australian Capital Territory,Ex-smoker,2004,25.6
-Australian Capital Territory,Ex-smoker,2007,24.8
-Australian Capital Territory,Ex-smoker,2010,24.9
-Australian Capital Territory,Ex-smoker,2013,22.5
-Australian Capital Territory,Ex-smoker,2016,22.8
-Australian Capital Territory,Ex-smoker,2019,20.8
-Australian Capital Territory,Never smoked,2001,49.8
-Australian Capital Territory,Never smoked,2004,53.6
-Australian Capital Territory,Never smoked,2007,57.9
-Australian Capital Territory,Never smoked,2010,61.2
-Australian Capital Territory,Never smoked,2013,65.3
-Australian Capital Territory,Never smoked,2016,65.5
-Australian Capital Territory,Never smoked,2019,69.2
+State,Status,Year,Percentage,Latitude,Longitude
+New South Wales,Daily,2001,18.2,"	-31.840233",145.612793
+New South Wales,Daily,2004,16.5,"	-31.840234",145.612793
+New South Wales,Daily,2007,16.3,"	-31.840235",145.612793
+New South Wales,Daily,2010,14.2,"	-31.840236",145.612793
+New South Wales,Daily,2013,11.7,"	-31.840237",145.612793
+New South Wales,Daily,2016,11.5,"	-31.840238",145.612793
+New South Wales,Daily,2019,9.5,"	-31.840239",145.612793
+New South Wales,Occasional,2001,3.6,"	-31.840240",145.612793
+New South Wales,Occasional,2004,3.3,"	-31.840241",145.612793
+New South Wales,Occasional,2007,2.6,"	-31.840242",145.612793
+New South Wales,Occasional,2010,2.6,"	-31.840243",145.612793
+New South Wales,Occasional,2013,3,"	-31.840244",145.612793
+New South Wales,Occasional,2016,2.5,"	-31.840245",145.612793
+New South Wales,Occasional,2019,2.8,"	-31.840246",145.612793
+New South Wales,Ex-smoker,2001,25.7,"	-31.840247",145.612793
+New South Wales,Ex-smoker,2004,24.8,"	-31.840248",145.612793
+New South Wales,Ex-smoker,2007,24.7,"	-31.840249",145.612793
+New South Wales,Ex-smoker,2010,23.2,"	-31.840250",145.612793
+New South Wales,Ex-smoker,2013,23,"	-31.840251",145.612793
+New South Wales,Ex-smoker,2016,21.8,"	-31.840252",145.612793
+New South Wales,Ex-smoker,2019,22.3,"	-31.840253",145.612793
+New South Wales,Never smoked,2001,52.8,"	-31.840254",145.612793
+New South Wales,Never smoked,2004,55.4,"	-31.840255",145.612793
+New South Wales,Never smoked,2007,56.3,"	-31.840256",145.612793
+New South Wales,Never smoked,2010,60,"	-31.840257",145.612793
+New South Wales,Never smoked,2013,62.3,"	-31.840258",145.612793
+New South Wales,Never smoked,2016,64.2,"	-31.840259",145.612793
+New South Wales,Never smoked,2019,65.3,"	-31.840260",145.612793
+Victoria,Daily,2001,19.2,-37.0201,144.9646
+Victoria,Daily,2004,17.5,-37.0201,144.9646
+Victoria,Daily,2007,16.5,-37.0201,144.9646
+Victoria,Daily,2010,14.9,-37.0201,144.9646
+Victoria,Daily,2013,12.2,-37.0201,144.9646
+Victoria,Daily,2016,11.7,-37.0201,144.9646
+Victoria,Daily,2019,10.2,-37.0201,144.9646
+Victoria,Occasional,2001,4.6,-37.0201,144.9646
+Victoria,Occasional,2004,3.6,-37.0201,144.9646
+Victoria,Occasional,2007,3.2,-37.0201,144.9646
+Victoria,Occasional,2010,3.4,-37.0201,144.9646
+Victoria,Occasional,2013,3.6,-37.0201,144.9646
+Victoria,Occasional,2016,2.9,-37.0201,144.9646
+Victoria,Occasional,2019,3.5,-37.0201,144.9646
+Victoria,Ex-smoker,2001,25.6,-37.0201,144.9646
+Victoria,Ex-smoker,2004,25.5,-37.0201,144.9646
+Victoria,Ex-smoker,2007,24.4,-37.0201,144.9646
+Victoria,Ex-smoker,2010,22.5,-37.0201,144.9646
+Victoria,Ex-smoker,2013,22.6,-37.0201,144.9646
+Victoria,Ex-smoker,2016,22.2,-37.0201,144.9646
+Victoria,Ex-smoker,2019,21.6,-37.0201,144.9646
+Victoria,Never smoked,2001,50.7,-37.0201,144.9646
+Victoria,Never smoked,2004,53.4,-37.0201,144.9646
+Victoria,Never smoked,2007,55.9,-37.0201,144.9646
+Victoria,Never smoked,2010,59.2,-37.0201,144.9646
+Victoria,Never smoked,2013,61.6,-37.0201,144.9646
+Victoria,Never smoked,2016,63.2,-37.0201,144.9646
+Victoria,Never smoked,2019,64.7,-37.0201,144.9646
+Queensland,Daily,2001,21,-20.917574,142.702789
+Queensland,Daily,2004,19.8,-20.917574,142.702789
+Queensland,Daily,2007,17.2,-20.917574,142.702789
+Queensland,Daily,2010,16.7,-20.917574,142.702789
+Queensland,Daily,2013,15,-20.917574,142.702789
+Queensland,Daily,2016,14.5,-20.917574,142.702789
+Queensland,Daily,2019,13.5,-20.917574,142.702789
+Queensland,Occasional,2001,3.2,-20.917574,142.702789
+Queensland,Occasional,2004,2.9,-20.917574,142.702789
+Queensland,Occasional,2007,2.7,-20.917574,142.702789
+Queensland,Occasional,2010,2.9,-20.917574,142.702789
+Queensland,Occasional,2013,2.4,-20.917574,142.702789
+Queensland,Occasional,2016,2.6,-20.917574,142.702789
+Queensland,Occasional,2019,2.9,-20.917574,142.702789
+Queensland,Ex-smoker,2001,26.5,-20.917574,142.702789
+Queensland,Ex-smoker,2004,28,-20.917574,142.702789
+Queensland,Ex-smoker,2007,25.7,-20.917574,142.702789
+Queensland,Ex-smoker,2010,25.8,-20.917574,142.702789
+Queensland,Ex-smoker,2013,25,-20.917574,142.702789
+Queensland,Ex-smoker,2016,24.7,-20.917574,142.702789
+Queensland,Ex-smoker,2019,24.7,-20.917574,142.702789
+Queensland,Never smoked,2001,49.2,-20.917574,142.702789
+Queensland,Never smoked,2004,49.3,-20.917574,142.702789
+Queensland,Never smoked,2007,54.5,-20.917574,142.702789
+Queensland,Never smoked,2010,54.6,-20.917574,142.702789
+Queensland,Never smoked,2013,57.6,-20.917574,142.702789
+Queensland,Never smoked,2016,58.1,-20.917574,142.702789
+Queensland,Never smoked,2019,58.9,-25.042261,117.793221
+Western Australia,Daily,2001,20,-25.042261,117.793221
+Western Australia,Daily,2004,15.6,-25.042261,117.793221
+Western Australia,Daily,2007,14.8,-25.042261,117.793221
+Western Australia,Daily,2010,15.6,-25.042261,117.793221
+Western Australia,Daily,2013,12.4,-25.042261,117.793221
+Western Australia,Daily,2016,11.5,-25.042261,117.793221
+Western Australia,Daily,2019,11.9,-25.042261,117.793221
+Western Australia,Occasional,2001,4.4,-25.042261,117.793221
+Western Australia,Occasional,2004,3,-25.042261,117.793221
+Western Australia,Occasional,2007,2.6,-25.042261,117.793221
+Western Australia,Occasional,2010,3.1,-25.042261,117.793221
+Western Australia,Occasional,2013,3.4,-25.042261,117.793221
+Western Australia,Occasional,2016,3.2,-25.042261,117.793221
+Western Australia,Occasional,2019,3,-25.042261,117.793221
+Western Australia,Ex-smoker,2001,26.5,-25.042261,117.793221
+Western Australia,Ex-smoker,2004,29,-25.042261,117.793221
+Western Australia,Ex-smoker,2007,28.3,-25.042261,117.793221
+Western Australia,Ex-smoker,2010,24.3,-25.042261,117.793221
+Western Australia,Ex-smoker,2013,27.5,-25.042261,117.793221
+Western Australia,Ex-smoker,2016,22.4,-25.042261,117.793221
+Western Australia,Ex-smoker,2019,22.7,-25.042261,117.793221
+Western Australia,Never smoked,2001,49.1,-25.042261,117.793221
+Western Australia,Never smoked,2004,52.4,-25.042261,117.793221
+Western Australia,Never smoked,2007,54.3,-25.042261,117.793221
+Western Australia,Never smoked,2010,57,-25.042261,117.793221
+Western Australia,Never smoked,2013,56.7,-25.042261,117.793221
+Western Australia,Never smoked,2016,62.9,-25.042261,117.793221
+Western Australia,Never smoked,2019,62.4,-25.042261,117.793221
+South Australia,Daily,2001,20.1,-30.000233,136.209152
+South Australia,Daily,2004,16.5,-30.000233,136.209152
+South Australia,Daily,2007,16.5,-30.000233,136.209152
+South Australia,Daily,2010,15,-30.000233,136.209152
+South Australia,Daily,2013,12.8,-30.000233,136.209152
+South Australia,Daily,2016,10.8,-30.000233,136.209152
+South Australia,Daily,2019,11.9,-30.000233,136.209152
+South Australia,Occasional,2001,3.4,-30.000233,136.209152
+South Australia,Occasional,2004,2.6,-30.000233,136.209152
+South Australia,Occasional,2007,3.2,-30.000233,136.209152
+South Australia,Occasional,2010,2.4,-30.000233,136.209152
+South Australia,Occasional,2013,2.6,-30.000233,136.209152
+South Australia,Occasional,2016,2.4,-30.000233,136.209152
+South Australia,Occasional,2019,2.2,-30.000233,136.209152
+South Australia,Ex-smoker,2001,28.2,-30.000233,136.209152
+South Australia,Ex-smoker,2004,28.8,-30.000233,136.209152
+South Australia,Ex-smoker,2007,24.1,-30.000233,136.209152
+South Australia,Ex-smoker,2010,25.8,-30.000233,136.209152
+South Australia,Ex-smoker,2013,24.9,-30.000233,136.209152
+South Australia,Ex-smoker,2016,23.8,-30.000233,136.209152
+South Australia,Ex-smoker,2019,24.7,-30.000233,136.209152
+South Australia,Never smoked,2001,48.4,-30.000233,136.209152
+South Australia,Never smoked,2004,52,-30.000233,136.209152
+South Australia,Never smoked,2007,56.2,-30.000233,136.209152
+South Australia,Never smoked,2010,56.8,-30.000233,136.209152
+South Australia,Never smoked,2013,59.7,-30.000233,136.209152
+South Australia,Never smoked,2016,62.9,-30.000233,136.209152
+South Australia,Never smoked,2019,61.1,-30.000233,136.209152
+Tasmania,Daily,2001,20.6,,
+Tasmania,Daily,2004,21.5,,
+Tasmania,Daily,2007,22.6,,
+Tasmania,Daily,2010,15.9,,
+Tasmania,Daily,2013,16.1,,
+Tasmania,Daily,2016,16,,
+Tasmania,Daily,2019,12.8,,
+Tasmania,Occasional,2001,3.7,,
+Tasmania,Occasional,2004,2.6,,
+Tasmania,Occasional,2007,2.2,,
+Tasmania,Occasional,2010,2.6,,
+Tasmania,Occasional,2013,2.3,,
+Tasmania,Occasional,2016,2.8,,
+Tasmania,Occasional,2019,1.3,,
+Tasmania,Ex-smoker,2001,28.6,,
+Tasmania,Ex-smoker,2004,28.2,,
+Tasmania,Ex-smoker,2007,26.5,,
+Tasmania,Ex-smoker,2010,28.7,,
+Tasmania,Ex-smoker,2013,28.1,,
+Tasmania,Ex-smoker,2016,25.2,,
+Tasmania,Ex-smoker,2019,25.9,,
+Tasmania,Never smoked,2001,47.1,,
+Tasmania,Never smoked,2004,47.6,,
+Tasmania,Never smoked,2007,48.6,,
+Tasmania,Never smoked,2010,52.9,,
+Tasmania,Never smoked,2013,53.5,,
+Tasmania,Never smoked,2016,56,,
+Tasmania,Never smoked,2019,60,,
+Northern Territory,Daily,2001,27.9,-19.491411,132.550964
+Northern Territory,Daily,2004,27.4,-19.491411,132.550964
+Northern Territory,Daily,2007,25.3,-19.491411,132.550964
+Northern Territory,Daily,2010,22.2,-19.491411,132.550964
+Northern Territory,Daily,2013,21.3,-19.491411,132.550964
+Northern Territory,Daily,2016,17.2,-19.491411,132.550964
+Northern Territory,Daily,2019,14.7,-19.491411,132.550964
+Northern Territory,Occasional,2001,3.4,-19.491411,132.550964
+Northern Territory,Occasional,2004,3.6,-19.491411,132.550964
+Northern Territory,Occasional,2007,2.4,-19.491411,132.550964
+Northern Territory,Occasional,2010,3.6,-19.491411,132.550964
+Northern Territory,Occasional,2013,2.9,-19.491411,132.550964
+Northern Territory,Occasional,2016,3.7,-19.491411,132.550964
+Northern Territory,Occasional,2019,3.5,-19.491411,132.550964
+Northern Territory,Ex-smoker,2001,26.4,-19.491411,132.550964
+Northern Territory,Ex-smoker,2004,25.8,-19.491411,132.550964
+Northern Territory,Ex-smoker,2007,22.4,-19.491411,132.550964
+Northern Territory,Ex-smoker,2010,24.1,-19.491411,132.550964
+Northern Territory,Ex-smoker,2013,25.7,-19.491411,132.550964
+Northern Territory,Ex-smoker,2016,23.9,-19.491411,132.550964
+Northern Territory,Ex-smoker,2019,22.3,-19.491411,132.550964
+Northern Territory,Never smoked,2001,42.4,-19.491411,132.550964
+Northern Territory,Never smoked,2004,43.2,-19.491411,132.550964
+Northern Territory,Never smoked,2007,49.8,-19.491411,132.550964
+Northern Territory,Never smoked,2010,50,-19.491411,132.550964
+Northern Territory,Never smoked,2013,50.1,-19.491411,132.550964
+Northern Territory,Never smoked,2016,55.2,-19.491411,132.550964
+Northern Territory,Never smoked,2019,59.5,-19.491411,132.550964
+Australian Capital Territory,Daily,2001,18.4,,
+Australian Capital Territory,Daily,2004,16.2,,
+Australian Capital Territory,Daily,2007,14.7,,
+Australian Capital Territory,Daily,2010,11,,
+Australian Capital Territory,Daily,2013,9.7,,
+Australian Capital Territory,Daily,2016,9.5,,
+Australian Capital Territory,Daily,2019,8.2,,
+Australian Capital Territory,Occasional,2001,4.2,,
+Australian Capital Territory,Occasional,2004,4.6,,
+Australian Capital Territory,Occasional,2007,2.5,,
+Australian Capital Territory,Occasional,2010,2.8,,
+Australian Capital Territory,Occasional,2013,2.5,,
+Australian Capital Territory,Occasional,2016,2.1,,
+Australian Capital Territory,Occasional,2019,1.8,,
+Australian Capital Territory,Ex-smoker,2001,27.7,,
+Australian Capital Territory,Ex-smoker,2004,25.6,,
+Australian Capital Territory,Ex-smoker,2007,24.8,,
+Australian Capital Territory,Ex-smoker,2010,24.9,,
+Australian Capital Territory,Ex-smoker,2013,22.5,,
+Australian Capital Territory,Ex-smoker,2016,22.8,,
+Australian Capital Territory,Ex-smoker,2019,20.8,,
+Australian Capital Territory,Never smoked,2001,49.8,,
+Australian Capital Territory,Never smoked,2004,53.6,,
+Australian Capital Territory,Never smoked,2007,57.9,,
+Australian Capital Territory,Never smoked,2010,61.2,,
+Australian Capital Territory,Never smoked,2013,65.3,,
+Australian Capital Territory,Never smoked,2016,65.5,,
+Australian Capital Territory,Never smoked,2019,69.2,,
