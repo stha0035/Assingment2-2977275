@@ -1,0 +1,201 @@
+State,Drug,Year,Percentage
+New South Wales,Cannabis,2007,8.3
+New South Wales,Cannabis,2010,9.6
+New South Wales,Cannabis,2013,9.9
+New South Wales,Cannabis,2016,9.8
+New South Wales,Cannabis,2019,11.5
+New South Wales,Ecstasy,2007,3.5
+New South Wales,Ecstasy,2010,2.9
+New South Wales,Ecstasy,2013,2.5
+New South Wales,Ecstasy,2016,1.9
+New South Wales,Ecstasy,2019,3.2
+New South Wales,Meth,2007,1.9
+New South Wales,Meth,2010,1.6
+New South Wales,Meth,2013,1.4
+New South Wales,Meth,2016,0.7
+New South Wales,Meth,2019,1.1
+New South Wales,Cocaine,2007,2.1
+New South Wales,Cocaine,2010,2.8
+New South Wales,Cocaine,2013,2.8
+New South Wales,Cocaine,2016,3.5
+New South Wales,Cocaine,2019,5.1
+New South Wales,Any illicit,2007,12.5
+New South Wales,Any illicit,2010,14.1
+New South Wales,Any illicit,2013,14.6
+New South Wales,Any illicit,2016,15.1
+New South Wales,Any illicit,2019,16.3
+Victoria,Cannabis,2007,9.1
+Victoria,Cannabis,2010,9.5
+Victoria,Cannabis,2013,9.3
+Victoria,Cannabis,2016,10.2
+Victoria,Cannabis,2019,11.8
+Victoria,Ecstasy,2007,3.7
+Victoria,Ecstasy,2010,3.0
+Victoria,Ecstasy,2013,2.4
+Victoria,Ecstasy,2016,2.5
+Victoria,Ecstasy,2019,3.6
+Victoria,Meth,2007,2.4
+Victoria,Meth,2010,2.3
+Victoria,Meth,2013,1.9
+Victoria,Meth,2016,1.5
+Victoria,Meth,2019,1.5
+Victoria,Cocaine,2007,1.6
+Victoria,Cocaine,2010,2.3
+Victoria,Cocaine,2013,2.1
+Victoria,Cocaine,2016,2.5
+Victoria,Cocaine,2019,5.0
+Victoria,Any illicit,2007,13.0
+Victoria,Any illicit,2010,13.8
+Victoria,Any illicit,2013,14.4
+Victoria,Any illicit,2016,15.2
+Victoria,Any illicit,2019,17.2
+Queensland,Cannabis,2007,9.7
+Queensland,Cannabis,2010,11.1
+Queensland,Cannabis,2013,11.4
+Queensland,Cannabis,2016,12.4
+Queensland,Cannabis,2019,13.5
+Queensland,Ecstasy,2007,3.7
+Queensland,Ecstasy,2010,2.6
+Queensland,Ecstasy,2013,2.3
+Queensland,Ecstasy,2016,2.2
+Queensland,Ecstasy,2019,2.7
+Queensland,Meth,2007,2.0
+Queensland,Meth,2010,1.9
+Queensland,Meth,2013,2.3
+Queensland,Meth,2016,1.6
+Queensland,Meth,2019,1.2
+Queensland,Cocaine,2007,1.4
+Queensland,Cocaine,2010,1.3
+Queensland,Cocaine,2013,2.0
+Queensland,Cocaine,2016,2.2
+Queensland,Cocaine,2019,3.8
+Queensland,Any illicit,2007,13.9
+Queensland,Any illicit,2010,15.2
+Queensland,Any illicit,2013,15.7
+Queensland,Any illicit,2016,17.2
+Queensland,Any illicit,2019,17.5
+Western Australia,Cannabis,2007,11.0
+Western Australia,Cannabis,2010,13.4
+Western Australia,Cannabis,2013,11.4
+Western Australia,Cannabis,2016,11.8
+Western Australia,Cannabis,2019,11.7
+Western Australia,Ecstasy,2007,4.1
+Western Australia,Ecstasy,2010,3.6
+Western Australia,Ecstasy,2013,2.5
+Western Australia,Ecstasy,2016,3.1
+Western Australia,Ecstasy,2019,3.0
+Western Australia,Meth,2007,4.3
+Western Australia,Meth,2010,3.4
+Western Australia,Meth,2013,3.7
+Western Australia,Meth,2016,2.6
+Western Australia,Meth,2019,2.1
+Western Australia,Cocaine,2007,1.8
+Western Australia,Cocaine,2010,2.2
+Western Australia,Cocaine,2013,1.5
+Western Australia,Cocaine,2016,1.6
+Western Australia,Cocaine,2019,2.4
+Western Australia,Any illicit,2007,16.2
+Western Australia,Any illicit,2010,18.5
+Western Australia,Any illicit,2013,16.9
+Western Australia,Any illicit,2016,16.9
+Western Australia,Any illicit,2019,16.0
+South Australia,Cannabis,2007,11.1
+South Australia,Cannabis,2010,12.1
+South Australia,Cannabis,2013,11.8
+South Australia,Cannabis,2016,11.7
+South Australia,Cannabis,2019,11.6
+South Australia,Ecstasy,2007,3.2
+South Australia,Ecstasy,2010,3.6
+South Australia,Ecstasy,2013,3.0
+South Australia,Ecstasy,2016,1.7
+South Australia,Ecstasy,2019,1.3
+South Australia,Meth,2007,2.9
+South Australia,Meth,2010,2.7
+South Australia,Meth,2013,2.3
+South Australia,Meth,2016,2.0
+South Australia,Meth,2019,1.1
+South Australia,Cocaine,2007,1.4
+South Australia,Cocaine,2010,1.9
+South Australia,Cocaine,2013,1.3
+South Australia,Cocaine,2016,2.2
+South Australia,Cocaine,2019,2.7
+South Australia,Any illicit,2007,15.6
+South Australia,Any illicit,2010,15.8
+South Australia,Any illicit,2013,16.4
+South Australia,Any illicit,2016,16.8
+South Australia,Any illicit,2019,16.3
+Tasmania,Cannabis,2007,11.9
+Tasmania,Cannabis,2010,9.5
+Tasmania,Cannabis,2013,13.2
+Tasmania,Cannabis,2016,14.3
+Tasmania,Cannabis,2019,14.1
+Tasmania,Ecstasy,2007,2.7
+Tasmania,Ecstasy,2010,1.9
+Tasmania,Ecstasy,2013,3.2
+Tasmania,Ecstasy,2016,2.4
+Tasmania,Ecstasy,2019,2.9
+Tasmania,Meth,2007,2.0
+Tasmania,Meth,2010,1.3
+Tasmania,Meth,2013,3.5
+Tasmania,Meth,2016,2.5
+Tasmania,Meth,2019,0.5
+Tasmania,Cocaine,2007,0.9
+Tasmania,Cocaine,2010,0.9
+Tasmania,Cocaine,2013,1.3
+Tasmania,Cocaine,2016,1.5
+Tasmania,Cocaine,2019,1.8
+Tasmania,Any illicit,2007,15.7
+Tasmania,Any illicit,2010,12.8
+Tasmania,Any illicit,2013,16.6
+Tasmania,Any illicit,2016,19.1
+Tasmania,Any illicit,2019,18.2
+Northern Territory,Cannabis,2007,12.3
+Northern Territory,Cannabis,2010,14.9
+Northern Territory,Cannabis,2013,15.9
+Northern Territory,Cannabis,2016,15.2
+Northern Territory,Cannabis,2019,15.3
+Northern Territory,Ecstasy,2007,3.7
+Northern Territory,Ecstasy,2010,2.7
+Northern Territory,Ecstasy,2013,2.9
+Northern Territory,Ecstasy,2016,2.6
+Northern Territory,Ecstasy,2019,2.7
+Northern Territory,Meth,2007,2.2
+Northern Territory,Meth,2010,1.8
+Northern Territory,Meth,2013,2.5
+Northern Territory,Meth,2016,1.3
+Northern Territory,Meth,2019,1.5
+Northern Territory,Cocaine,2007,0.9
+Northern Territory,Cocaine,2010,0.5
+Northern Territory,Cocaine,2013,2.0
+Northern Territory,Cocaine,2016,2.3
+Northern Territory,Cocaine,2019,2.9
+Northern Territory,Any illicit,2007,18.3
+Northern Territory,Any illicit,2010,19.6
+Northern Territory,Any illicit,2013,20.9
+Northern Territory,Any illicit,2016,20.7
+Northern Territory,Any illicit,2019,19.0
+Australian Capital Territory,Cannabis,2007,8.7
+Australian Capital Territory,Cannabis,2010,9.0
+Australian Capital Territory,Cannabis,2013,9.7
+Australian Capital Territory,Cannabis,2016,8.2
+Australian Capital Territory,Cannabis,2019,10.4
+Australian Capital Territory,Ecstasy,2007,4.4
+Australian Capital Territory,Ecstasy,2010,2.0
+Australian Capital Territory,Ecstasy,2013,2.5
+Australian Capital Territory,Ecstasy,2016,2.2
+Australian Capital Territory,Ecstasy,2019,2.2
+Australian Capital Territory,Meth,2007,2.1
+Australian Capital Territory,Meth,2010,1.1
+Australian Capital Territory,Meth,2013,2.0
+Australian Capital Territory,Meth,2016,1.1
+Australian Capital Territory,Meth,2019,0.3
+Australian Capital Territory,Cocaine,2007,1.3
+Australian Capital Territory,Cocaine,2010,1.6
+Australian Capital Territory,Cocaine,2013,2.6
+Australian Capital Territory,Cocaine,2016,1.8
+Australian Capital Territory,Cocaine,2019,3.2
+Australian Capital Territory,Any illicit,2007,13.1
+Australian Capital Territory,Any illicit,2010,13.3
+Australian Capital Territory,Any illicit,2013,14.9
+Australian Capital Territory,Any illicit,2016,12.7
+Australian Capital Territory,Any illicit,2019,14.3
