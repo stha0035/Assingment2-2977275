@@ -1,48 +1,77 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "data": {
-      "url":"https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/DiseaseDueToAlcohol.csv"
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Diseases That Drinking Leads To",
+  "data": {
+    "url":"https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/DiseaseDueToAlcohol.csv"
+  },
+
+  "layer":[{
+  "params": [
+    {
+      "name": "expand",
+      "select": {"type": "point", "on": "mouseover"}
     },
-    "params": [
-      {
-        "name": "expand",
-        "select": {"type": "point", "on": "mouseover"}
-      },
-      {"name": "hover", "select": "point"}
+    {"name": "hover", "select": "point"}
+  ],
+  "mark": {
+    "type": "bar",
+    "fill": "#7da11a",
+    "stroke": "black",
+    "cursor": "pointer"
+  },
+  
+  "encoding": {
+    "y": {"field": "Disease", "type": "nominal"},
+    "x": {"field": "Percentage ", "type": "quantitative"},
+    "tooltip": [
+      {"field": "Disease", "type": "nominal"},
+      {"field": "Percentage ", "type": "quantitative"}
     ],
-    "mark": {
-      "type": "bar",
-      "fill": "#7da11a",
-      "stroke": "black",
-      "cursor": "pointer"
+    "fillOpacity": {
+      "condition": {"param": "hover", "value": 1},
+      "value": 0.3
     },
-    
-    "encoding": {
-      "x": {"field": "Disease", "type": "nominal"},
-      "y": {"field": "Percentage ", "type": "quantitative"},
-      "tooltip": [
-        {"field": "Disease", "type": "nominal"},
-        {"field": "Percentage ", "type": "quantitative"}
+    "strokeWidth": {
+      "condition": [
+        {
+          "param": "hover",
+          "empty": false,
+          "value": 2
+        },
+        {
+          "param": "expand",
+          "empty": false,
+          "value": 1
+        }
       ],
-      "fillOpacity": {
-        "condition": {"param": "hover", "value": 1},
-        "value": 0.3
-      },
-      "strokeWidth": {
-        "condition": [
-          {
-            "param": "hover",
-            "empty": false,
-            "value": 2
-          },
-          {
-            "param": "expand",
-            "empty": false,
-            "value": 1
-          }
-        ],
-        "value": 0
+      "value": 0
+        } 
       }
+    },
+    {
+      "data": {
+    "url":"https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/DiseaseDueToAlcohol.csv"
+  },
+  "encoding": {
+    "y": {"field": "Disease", "type": "nominal"},
+    "x": {"field": "Percentage ", "type": "quantitative"}
+      },
+      "layer":[
+        {
+    "mark": {
+      "type": "text",
+      "fontSize":10,
+      "dy": -1,
+      "dx": 10,
+      "fontStyle": "italic",
+      "fontWeight": "bold"
+    },
+    "encoding": {
+      "text": {"field": "Percentage ", "type": "quantitative"}
     }
   }
-  
+
+      ]
+    }
+  ]
+}
