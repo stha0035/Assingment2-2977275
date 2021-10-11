@@ -4,7 +4,6 @@
   "data": {
     "url":"https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/DiseaseDueToAlcohol.csv"
   },
-
   "layer":[{
   "params": [
     {
@@ -15,17 +14,22 @@
   ],
   "mark": {
     "type": "bar",
-    "fill": "#7da11a",
     "stroke": "black",
-    "cursor": "pointer"
+    "cursor": "pointer",
+    "strokeWidth": 20
   },
   
   "encoding": {
-    "y": {"field": "Disease", "type": "nominal"},
-    "x": {"field": "Percentage ", "type": "quantitative"},
+    "y": {"field": "Disease", "type": "nominal", "sort": "-x"},
+    "x": {"field": "Percentage", "type": "quantitative"},
+    "color": {
+            "field": "Percentage", 
+            "type": "quantitative", 
+            "scale": {"scheme": "blues"}
+        },
     "tooltip": [
       {"field": "Disease", "type": "nominal"},
-      {"field": "Percentage ", "type": "quantitative"}
+      {"field": "Percentage", "type": "quantitative"}
     ],
     "fillOpacity": {
       "condition": {"param": "hover", "value": 1},
@@ -53,8 +57,8 @@
     "url":"https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/DiseaseDueToAlcohol.csv"
   },
   "encoding": {
-    "y": {"field": "Disease", "type": "nominal"},
-    "x": {"field": "Percentage ", "type": "quantitative"}
+    "y": {"field": "Disease", "type": "nominal", "sort": "-x"},
+    "x": {"field": "Percentage", "type": "quantitative"}
       },
       "layer":[
         {
@@ -67,10 +71,34 @@
       "fontWeight": "bold"
     },
     "encoding": {
-      "text": {"field": "Percentage ", "type": "quantitative"}
+      "text": {"field": "Percentage", "type": "quantitative"}
     }
-  }
-
+    }
+      ]
+    },
+     {
+      "data": {
+    "url":"https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/DiseaseDueToAlcohol.csv"
+  },
+  "transform": [
+      {"calculate":"parseInt(datum.Percentage)", "as": "Percentage"}
+    ],
+  "encoding": {
+    "y": {"field": "Disease", "type": "nominal"},
+    "x": {"field": "Percentage", "type": "quantitative"}
+      },
+      "layer":[
+       {"mark": "bar",
+    "encoding": {
+        "x": {"field": "Percentage", "type": "quantitative", "title": ""},
+        "y": {"field": "Disease", "type": "nominal", "title": "", "sort": "-x"},
+        "color": {
+            "field": "Percentage", 
+            "type": "quantitative", 
+            "scale": {"scheme": "blue"}
+        }
+          }
+       }
       ]
     }
   ]
