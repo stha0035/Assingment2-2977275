@@ -117,7 +117,7 @@
       "mark": {
         "type": "text",
         "fontSize":10,
-        "dy": -10,
+        "dy": -8,
         "fontStyle": "italic",
         "fontWeight": "bold"
       },
