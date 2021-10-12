@@ -1,19 +1,21 @@
 {
+    "title": "Deaths Caused By All Drugs In Australia" ,
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "Google's stock price over time.",
     "data": {
-      "url": "data/stocks.csv"
+      "url": "https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/AllDeathByYears.csv"
     },
+    "width": 450,
+    "height": 320,
     "transform": [
       {
-        "filter": "datum.symbol==='GOOG'"
-        
+        "filter": "datum.Symbol==='SUM'"
       }
     ],
     "mark": {
       "type": "area",
       "line": {
-        "color": "darkgreen"
+        "color": "darkblue"
       },
       "color": {
         "x1": 1,
@@ -28,20 +30,24 @@
           },
           {
             "offset": 1,
-            "color": "darkgreen"
+            "color": "lightblue"
           }
         ]
       }
     },
     "encoding": {
       "x": {
-        "field": "date",
-        "type": "temporal"
+        "field": "Year",
+         "timeUnit": "year"
       },
       "y": {
-        "field": "price",
+        "field": "Deaths",
         "type": "quantitative"
-      }
+      },"tooltip": [
+        {"field": "Year", "timeUnit": "year", "title":"Year"},
+        {"field": "Deaths", "type": "quantitative"}
+        ]
+      
     }
   }
   
