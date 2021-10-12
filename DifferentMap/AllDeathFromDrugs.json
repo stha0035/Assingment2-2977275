@@ -5,8 +5,31 @@
     "data": {
       "url": "https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/AllDeathByYears.csv"
     },
+     "params": [
+           {
+           "name": "Smoking_selection",
+           "value": "Deaths",
+           "bind": {
+               "input": "select",
+               "options": [
+                 "Deaths",
+                 "DeathsPer100"
+                
+           ],
+           "labels":[
+                   "Deaths",
+                   "Rate (per 100,000 population)"
+                   ],
+                       "name": "Smoking Status: "
+                   }
+           } 
+       ],
+       "transform": [{"filter": "datum.Type == Smoking_selection"}],
     "width": 450,
     "height": 320,
+
+    "layer":[
+      {
     "transform": [
       {
         "filter": "datum.Symbol==='SUM'"
@@ -14,6 +37,7 @@
     ],
     "mark": {
       "type": "area",
+      "point": true,
       "line": {
         "color": "darkblue"
       },
@@ -36,18 +60,26 @@
       }
     },
     "encoding": {
+      
       "x": {
         "field": "Year",
-         "timeUnit": "year"
+         "timeUnit": "year",
+         "title":"Years"
       },
       "y": {
-        "field": "Deaths",
-        "type": "quantitative"
-      },"tooltip": [
+        "field": "NumDeath",
+        "type": "quantitative",
+        "title":"Deaths"
+      },
+    
+      "tooltip": [
         {"field": "Year", "timeUnit": "year", "title":"Year"},
-        {"field": "Deaths", "type": "quantitative"}
+        {"field": "NumDeath", "type": "quantitative", "title":"Deaths"},
+        {"field": "Type", "type": "nominal", "title":"Type"}
         ]
+       }
+      }
+    ]
       
-    }
   }
   

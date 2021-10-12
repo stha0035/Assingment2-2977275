@@ -1,1 +1,392 @@
-Drugs,Year,NumDeath,DeathsPer100Heroin,1997,281,1.5Heroin,1998,351,1.8Heroin,1999,441,2.3Heroin,2000,417,2.2Heroin,2001,113,0.6Heroin,2002,97,0.5Heroin,2003,151,0.8Heroin,2004,138,0.7Heroin,2005,131,0.7Heroin,2006,73,0.4Heroin,2007,127,0.6Heroin,2008,179,0.9Heroin,2009,202,1.0Heroin,2010,221,1.0Heroin,2011,221,1.0Heroin,2012,174,0.8Heroin,2013,207,0.9Heroin,2014,237,1.0Heroin,2015,308,1.4Heroin,2016,399,1.7Heroin,2017,444,1.9Heroin,2018,456,1.9Heroin,2019,474,1.9Natural and semi-synthetic opioids,1997,455,2.4Natural and semi-synthetic opioids,1998,457,2.4Natural and semi-synthetic opioids,1999,678,3.6Natural and semi-synthetic opioids,2000,490,2.6Natural and semi-synthetic opioids,2001,227,1.2Natural and semi-synthetic opioids,2002,243,1.2Natural and semi-synthetic opioids,2003,187,1.0Natural and semi-synthetic opioids,2004,200,1.0Natural and semi-synthetic opioids,2005,232,1.2Natural and semi-synthetic opioids,2006,242,1.2Natural and semi-synthetic opioids,2007,292,1.4Natural and semi-synthetic opioids,2008,375,1.8Natural and semi-synthetic opioids,2009,418,1.9Natural and semi-synthetic opioids,2010,417,1.9Natural and semi-synthetic opioids,2011,392,1.8Natural and semi-synthetic opioids,2012,447,2.0Natural and semi-synthetic opioids,2013,416,1.8Natural and semi-synthetic opioids,2014,603,2.6Natural and semi-synthetic opioids,2015,590,2.5Natural and semi-synthetic opioids,2016,613,2.5Natural and semi-synthetic opioids,2017,654,2.7Natural and semi-synthetic opioids,2018,501,2.0Natural and semi-synthetic opioids,2019,466,1.8Methadone,1997,120,0.6Methadone,1998,114,0.6Methadone,1999,131,0.7Methadone,2000,118,0.6Methadone,2001,107,0.6Methadone,2002,103,0.5Methadone,2003,70,0.4Methadone,2004,88,0.4Methadone,2005,106,0.5Methadone,2006,101,0.5Methadone,2007,129,0.6Methadone,2008,146,0.7Methadone,2009,154,0.7Methadone,2010,172,0.8Methadone,2011,184,0.8Methadone,2012,191,0.9Methadone,2013,177,0.8Methadone,2014,192,0.8Methadone,2015,212,0.9Methadone,2016,245,1.1Methadone,2017,252,1.1Methadone,2018,230,1.0Methadone,2019,192,0.8Synthetic opioids,1997,57,0.3Synthetic opioids,1998,45,0.2Synthetic opioids,1999,68,0.4Synthetic opioids,2000,43,0.2Synthetic opioids,2001,27,0.1Synthetic opioids,2002,19,n.p.Synthetic opioids,2003,22,0.1Synthetic opioids,2004,11,n.p.Synthetic opioids,2005,23,0.1Synthetic opioids,2006,19,n.p.Synthetic opioids,2007,19,n.p.Synthetic opioids,2008,31,0.1Synthetic opioids,2009,32,0.1Synthetic opioids,2010,57,0.3Synthetic opioids,2011,75,0.3Synthetic opioids,2012,123,0.6Synthetic opioids,2013,174,0.8Synthetic opioids,2014,204,0.9Synthetic opioids,2015,265,1.1Synthetic opioids,2016,269,1.1Synthetic opioids,2017,300,1.3Synthetic opioids,2018,256,1.0Synthetic opioids,2019,231,0.9All opioids,1997,877,4.6All opioids,1998,"1,054",5.5All opioids,1999,"1,245",6.5All opioids,2000,"1,057",5.5All opioids,2001,506,2.6All opioids,2002,483,2.5All opioids,2003,450,2.3All opioids,2004,452,2.3All opioids,2005,498,2.5All opioids,2006,439,2.2All opioids,2007,591,2.9All opioids,2008,741,3.5All opioids,2009,852,4.0All opioids,2010,869,4.0All opioids,2011,886,4.0All opioids,2012,881,3.9All opioids,2013,883,3.9All opioids,2014,"1,099",4.8All opioids,2015,"1,166",5.0All opioids,2016,"1,260",5.3All opioids,2017,"1,373",5.7All opioids,2018,"1,170",4.8All opioids,2019,"1,129",4.6All opioids excluding heroin,1997,681,3.6All opioids excluding heroin,1998,767,4.0All opioids excluding heroin,1999,927,4.9All opioids excluding heroin,2000,698,3.6All opioids excluding heroin,2001,414,2.1All opioids excluding heroin,2002,398,2.0All opioids excluding heroin,2003,324,1.7All opioids excluding heroin,2004,349,1.8All opioids excluding heroin,2005,388,1.9All opioids excluding heroin,2006,374,1.8All opioids excluding heroin,2007,487,2.3All opioids excluding heroin,2008,594,2.8All opioids excluding heroin,2009,685,3.2All opioids excluding heroin,2010,689,3.2All opioids excluding heroin,2011,706,3.2All opioids excluding heroin,2012,754,3.4All opioids excluding heroin,2013,713,3.1All opioids excluding heroin,2014,914,3.9All opioids excluding heroin,2015,945,4.0All opioids excluding heroin,2016,985,4.1All opioids excluding heroin,2017,"1,030",4.2All opioids excluding heroin,2018,830,3.4All opioids excluding heroin,2019,773,3.1Benzodiazepines,1997,352,1.9Benzodiazepines,1998,347,1.8Benzodiazepines,1999,503,2.6Benzodiazepines,2000,403,2.1Benzodiazepines,2001,252,1.3Benzodiazepines,2002,261,1.3Benzodiazepines,2003,221,1.1Benzodiazepines,2004,204,1.0Benzodiazepines,2005,249,1.2Benzodiazepines,2006,247,1.2Benzodiazepines,2007,354,1.7Benzodiazepines,2008,402,1.9Benzodiazepines,2009,518,2.4Benzodiazepines,2010,554,2.5Benzodiazepines,2011,538,2.4Benzodiazepines,2012,616,2.7Benzodiazepines,2013,579,2.5Benzodiazepines,2014,708,3.0Benzodiazepines,2015,705,3.0Benzodiazepines,2016,797,3.4Benzodiazepines,2017,"1,027",4.2Benzodiazepines,2018,933,3.8Benzodiazepines,2019,811,3.3All depressants,1997,384,2.1All depressants,1998,382,2.0All depressants,1999,543,2.9All depressants,2000,431,2.3All depressants,2001,279,1.4All depressants,2002,289,1.5All depressants,2003,247,1.3All depressants,2004,234,1.2All depressants,2005,271,1.4All depressants,2006,292,1.4All depressants,2007,394,1.9All depressants,2008,446,2.1All depressants,2009,557,2.6All depressants,2010,601,2.7All depressants,2011,601,2.7All depressants,2012,666,2.9All depressants,2013,641,2.8All depressants,2014,794,3.4All depressants,2015,801,3.4All depressants,2016,910,3.8All depressants,2017,"1,150",4.7All depressants,2018,"1,044",4.2All depressants,2019,944,3.8All psychostimulants,1997,29,0.1All psychostimulants,1998,47,0.2All psychostimulants,1999,76,0.4All psychostimulants,2000,104,0.5All psychostimulants,2001,59,0.3All psychostimulants,2002,62,0.3All psychostimulants,2003,34,0.2All psychostimulants,2004,60,0.3All psychostimulants,2005,79,0.4All psychostimulants,2006,86,0.4All psychostimulants,2007,93,0.5All psychostimulants,2008,109,0.5All psychostimulants,2009,101,0.5All psychostimulants,2010,106,0.5All psychostimulants,2011,104,0.5All psychostimulants,2012,163,0.7All psychostimulants,2013,165,0.7All psychostimulants,2014,258,1.2All psychostimulants,2015,289,1.3All psychostimulants,2016,423,1.8All psychostimulants,2017,443,1.9All psychostimulants,2018,416,1.7All psychostimulants,2019,469,2.0All antidepressants,1997,233,1.3All antidepressants,1998,215,1.2All antidepressants,1999,300,1.6All antidepressants,2000,268,1.4All antidepressants,2001,194,1.0All antidepressants,2002,249,1.3All antidepressants,2003,153,0.8All antidepressants,2004,187,0.9All antidepressants,2005,200,1.0All antidepressants,2006,268,1.3All antidepressants,2007,271,1.3All antidepressants,2008,312,1.5All antidepressants,2009,374,1.7All antidepressants,2010,335,1.5All antidepressants,2011,332,1.5All antidepressants,2012,384,1.7All antidepressants,2013,376,1.6All antidepressants,2014,472,2.0All antidepressants,2015,501,2.1All antidepressants,2016,517,2.1All antidepressants,2017,683,2.8All antidepressants,2018,605,2.4All antidepressants,2019,568,2.2All antipsychotics,1997,75,0.4All antipsychotics,1998,60,0.3All antipsychotics,1999,92,0.5All antipsychotics,2000,92,0.5All antipsychotics,2001,38,0.2All antipsychotics,2002,37,0.2All antipsychotics,2003,29,0.1All antipsychotics,2004,17,0.0All antipsychotics,2005,38,0.2All antipsychotics,2006,71,0.3All antipsychotics,2007,70,0.3All antipsychotics,2008,89,0.4All antipsychotics,2009,90,0.4All antipsychotics,2010,134,0.6All antipsychotics,2011,107,0.5All antipsychotics,2012,75,0.3All antipsychotics,2013,62,0.3All antipsychotics,2014,99,0.4All antipsychotics,2015,229,1.0All antipsychotics,2016,337,1.4All antipsychotics,2017,446,1.9All antipsychotics,2018,401,1.7All antipsychotics,2019,356,1.5Paracetamol,1997,87,0.5Paracetamol,1998,88,0.5Paracetamol,1999,110,0.6Paracetamol,2000,108,0.6Paracetamol,2001,71,0.4Paracetamol,2002,73,0.4Paracetamol,2003,51,0.3Paracetamol,2004,31,0.2Paracetamol,2005,52,0.3Paracetamol,2006,79,0.4Paracetamol,2007,82,0.4Paracetamol,2008,63,0.3Paracetamol,2009,104,0.5Paracetamol,2010,110,0.5Paracetamol,2011,105,0.5Paracetamol,2012,138,0.6Paracetamol,2013,113,0.5Paracetamol,2014,166,0.7Paracetamol,2015,183,0.8Paracetamol,2016,209,0.9Paracetamol,2017,310,1.2Paracetamol,2018,283,1.1Paracetamol,2019,252,1.0Ibuprofen and aspirin,1997,7,0.0Ibuprofen and aspirin,1998,7,0.0Ibuprofen and aspirin,1999,14,0.0Ibuprofen and aspirin,2000,6,0.0Ibuprofen and aspirin,2001,11,0.0Ibuprofen and aspirin,2002,35,0.2Ibuprofen and aspirin,2003,27,0.1Ibuprofen and aspirin,2004,24,0.1Ibuprofen and aspirin,2005,37,0.2Ibuprofen and aspirin,2006,43,0.2Ibuprofen and aspirin,2007,52,0.2Ibuprofen and aspirin,2008,58,0.3Ibuprofen and aspirin,2009,71,0.3Ibuprofen and aspirin,2010,70,0.3Ibuprofen and aspirin,2011,53,0.2Ibuprofen and aspirin,2012,38,0.2Ibuprofen and aspirin,2013,27,0.1Ibuprofen and aspirin,2014,43,0.2Ibuprofen and aspirin,2015,43,0.2Ibuprofen and aspirin,2016,40,0.2Ibuprofen and aspirin,2017,58,0.2Ibuprofen and aspirin,2018,70,0.3Ibuprofen and aspirin,2019,72,0.3All non-opioid analgesics,1997,95,0.5All non-opioid analgesics,1998,97,0.5All non-opioid analgesics,1999,122,0.6All non-opioid analgesics,2000,115,0.6All non-opioid analgesics,2001,99,0.5All non-opioid analgesics,2002,109,0.6All non-opioid analgesics,2003,77,0.4All non-opioid analgesics,2004,55,0.3All non-opioid analgesics,2005,88,0.4All non-opioid analgesics,2006,136,0.7All non-opioid analgesics,2007,135,0.6All non-opioid analgesics,2008,130,0.6All non-opioid analgesics,2009,191,0.9All non-opioid analgesics,2010,184,0.8All non-opioid analgesics,2011,162,0.7All non-opioid analgesics,2012,171,0.7All non-opioid analgesics,2013,134,0.6All non-opioid analgesics,2014,204,0.9All non-opioid analgesics,2015,217,0.9All non-opioid analgesics,2016,240,1.0All non-opioid analgesics,2017,354,1.4All non-opioid analgesics,2018,334,1.3All non-opioid analgesics,2019,299,1.2Alcohol,1997,212,1.1Alcohol,1998,244,1.3Alcohol,1999,260,1.4Alcohol,2000,252,1.3Alcohol,2001,167,0.9Alcohol,2002,163,0.8Alcohol,2003,137,0.7Alcohol,2004,125,0.6Alcohol,2005,148,0.7Alcohol,2006,115,0.6Alcohol,2007,163,0.8Alcohol,2008,223,1.1Alcohol,2009,281,1.3Alcohol,2010,260,1.2Alcohol,2011,275,1.2Alcohol,2012,267,1.2Alcohol,2013,248,1.1Alcohol,2014,295,1.3Alcohol,2015,315,1.4Alcohol,2016,267,1.1Alcohol,2017,360,1.5Alcohol,2018,362,1.5Alcohol,2019,310,1.2Cocaine,1997,16,0.1Cocaine,1998,32,0.2Cocaine,1999,25,0.1Cocaine,2000,27,0.1Cocaine,2001,30,0.2Cocaine,2002,13,0.1Cocaine,2003,10,0.0Cocaine,2004,15,0.0Cocaine,2005,17,0.0Cocaine,2006,16,0.0Cocaine,2007,18,0.2Cocaine,2008,24,0.1Cocaine,2009,30,0.1Cocaine,2010,16,n.p.Cocaine,2011,16,n.p.Cocaine,2012,26,0.1Cocaine,2013,21,0.1Cocaine,2014,15,0.0Cocaine,2015,46,0.2Cocaine,2016,34,0.1Cocaine,2017,50,0.2Cocaine,2018,58,0.2Cannabinoids,2019,85,0.3Cannabinoids,1997,43,0.2Cannabinoids,1998,25,0.1Cannabinoids,1999,39,0.2Cannabinoids,2000,49,0.3Cannabinoids,2001,28,0.1Cannabinoids,2002,23,0.1Cannabinoids,2003,11,n.p.Cannabinoids,2004,12,n.p.Cannabinoids,2005,20,0.1Cannabinoids,2006,36,0.2Cannabinoids,2007,39,0.2Cannabinoids,2008,52,0.3Cannabinoids,2009,64,0.3Cannabinoids,2010,70,0.3Cannabinoids,2011,84,0.4Cannabinoids,2012,87,0.4Cannabinoids,2013,54,0.2Cannabinoids,2014,115,0.5Cannabinoids,2015,139,0.6Cannabinoids,2016,179,0.8Cannabinoids,2017,261,1.1Cannabinoids,2018,273,1.1Cannabinoids,2019,206,0.9
+Drugs,Year,NumDeath,DeathsPer100
+Heroin,1997,281,1.5
+Heroin,1998,351,1.8
+Heroin,1999,441,2.3
+Heroin,2000,417,2.2
+Heroin,2001,113,0.6
+Heroin,2002,97,0.5
+Heroin,2003,151,0.8
+Heroin,2004,138,0.7
+Heroin,2005,131,0.7
+Heroin,2006,73,0.4
+Heroin,2007,127,0.6
+Heroin,2008,179,0.9
+Heroin,2009,202,1
+Heroin,2010,221,1
+Heroin,2011,221,1
+Heroin,2012,174,0.8
+Heroin,2013,207,0.9
+Heroin,2014,237,1
+Heroin,2015,308,1.4
+Heroin,2016,399,1.7
+Heroin,2017,444,1.9
+Heroin,2018,456,1.9
+Heroin,2019,474,1.9
+Natural and semi-synthetic opioids,1997,455,2.4
+Natural and semi-synthetic opioids,1998,457,2.4
+Natural and semi-synthetic opioids,1999,678,3.6
+Natural and semi-synthetic opioids,2000,490,2.6
+Natural and semi-synthetic opioids,2001,227,1.2
+Natural and semi-synthetic opioids,2002,243,1.2
+Natural and semi-synthetic opioids,2003,187,1
+Natural and semi-synthetic opioids,2004,200,1
+Natural and semi-synthetic opioids,2005,232,1.2
+Natural and semi-synthetic opioids,2006,242,1.2
+Natural and semi-synthetic opioids,2007,292,1.4
+Natural and semi-synthetic opioids,2008,375,1.8
+Natural and semi-synthetic opioids,2009,418,1.9
+Natural and semi-synthetic opioids,2010,417,1.9
+Natural and semi-synthetic opioids,2011,392,1.8
+Natural and semi-synthetic opioids,2012,447,2
+Natural and semi-synthetic opioids,2013,416,1.8
+Natural and semi-synthetic opioids,2014,603,2.6
+Natural and semi-synthetic opioids,2015,590,2.5
+Natural and semi-synthetic opioids,2016,613,2.5
+Natural and semi-synthetic opioids,2017,654,2.7
+Natural and semi-synthetic opioids,2018,501,2
+Natural and semi-synthetic opioids,2019,466,1.8
+Methadone,1997,120,0.6
+Methadone,1998,114,0.6
+Methadone,1999,131,0.7
+Methadone,2000,118,0.6
+Methadone,2001,107,0.6
+Methadone,2002,103,0.5
+Methadone,2003,70,0.4
+Methadone,2004,88,0.4
+Methadone,2005,106,0.5
+Methadone,2006,101,0.5
+Methadone,2007,129,0.6
+Methadone,2008,146,0.7
+Methadone,2009,154,0.7
+Methadone,2010,172,0.8
+Methadone,2011,184,0.8
+Methadone,2012,191,0.9
+Methadone,2013,177,0.8
+Methadone,2014,192,0.8
+Methadone,2015,212,0.9
+Methadone,2016,245,1.1
+Methadone,2017,252,1.1
+Methadone,2018,230,1
+Methadone,2019,192,0.8
+Synthetic opioids,1997,57,0.3
+Synthetic opioids,1998,45,0.2
+Synthetic opioids,1999,68,0.4
+Synthetic opioids,2000,43,0.2
+Synthetic opioids,2001,27,0.1
+Synthetic opioids,2002,19,0.2
+Synthetic opioids,2003,22,0.1
+Synthetic opioids,2004,11,0.1
+Synthetic opioids,2005,23,0.1
+Synthetic opioids,2006,19,0.2
+Synthetic opioids,2007,19,0.005
+Synthetic opioids,2008,31,0.1
+Synthetic opioids,2009,32,0.1
+Synthetic opioids,2010,57,0.3
+Synthetic opioids,2011,75,0.3
+Synthetic opioids,2012,123,0.6
+Synthetic opioids,2013,174,0.8
+Synthetic opioids,2014,204,0.9
+Synthetic opioids,2015,265,1.1
+Synthetic opioids,2016,269,1.1
+Synthetic opioids,2017,300,1.3
+Synthetic opioids,2018,256,1
+Synthetic opioids,2019,231,0.9
+All opioids,1997,877,4.6
+All opioids,1998,"1,054",5.5
+All opioids,1999,"1,245",6.5
+All opioids,2000,"1,057",5.5
+All opioids,2001,506,2.6
+All opioids,2002,483,2.5
+All opioids,2003,450,2.3
+All opioids,2004,452,2.3
+All opioids,2005,498,2.5
+All opioids,2006,439,2.2
+All opioids,2007,591,2.9
+All opioids,2008,741,3.5
+All opioids,2009,852,4
+All opioids,2010,869,4
+All opioids,2011,886,4
+All opioids,2012,881,3.9
+All opioids,2013,883,3.9
+All opioids,2014,"1,099",4.8
+All opioids,2015,"1,166",5
+All opioids,2016,"1,260",5.3
+All opioids,2017,"1,373",5.7
+All opioids,2018,"1,170",4.8
+All opioids,2019,"1,129",4.6
+All opioids excluding heroin,1997,681,3.6
+All opioids excluding heroin,1998,767,4
+All opioids excluding heroin,1999,927,4.9
+All opioids excluding heroin,2000,698,3.6
+All opioids excluding heroin,2001,414,2.1
+All opioids excluding heroin,2002,398,2
+All opioids excluding heroin,2003,324,1.7
+All opioids excluding heroin,2004,349,1.8
+All opioids excluding heroin,2005,388,1.9
+All opioids excluding heroin,2006,374,1.8
+All opioids excluding heroin,2007,487,2.3
+All opioids excluding heroin,2008,594,2.8
+All opioids excluding heroin,2009,685,3.2
+All opioids excluding heroin,2010,689,3.2
+All opioids excluding heroin,2011,706,3.2
+All opioids excluding heroin,2012,754,3.4
+All opioids excluding heroin,2013,713,3.1
+All opioids excluding heroin,2014,914,3.9
+All opioids excluding heroin,2015,945,4
+All opioids excluding heroin,2016,985,4.1
+All opioids excluding heroin,2017,"1,030",4.2
+All opioids excluding heroin,2018,830,3.4
+All opioids excluding heroin,2019,773,3.1
+Benzodiazepines,1997,352,1.9
+Benzodiazepines,1998,347,1.8
+Benzodiazepines,1999,503,2.6
+Benzodiazepines,2000,403,2.1
+Benzodiazepines,2001,252,1.3
+Benzodiazepines,2002,261,1.3
+Benzodiazepines,2003,221,1.1
+Benzodiazepines,2004,204,1
+Benzodiazepines,2005,249,1.2
+Benzodiazepines,2006,247,1.2
+Benzodiazepines,2007,354,1.7
+Benzodiazepines,2008,402,1.9
+Benzodiazepines,2009,518,2.4
+Benzodiazepines,2010,554,2.5
+Benzodiazepines,2011,538,2.4
+Benzodiazepines,2012,616,2.7
+Benzodiazepines,2013,579,2.5
+Benzodiazepines,2014,708,3
+Benzodiazepines,2015,705,3
+Benzodiazepines,2016,797,3.4
+Benzodiazepines,2017,"1,027",4.2
+Benzodiazepines,2018,933,3.8
+Benzodiazepines,2019,811,3.3
+All depressants,1997,384,2.1
+All depressants,1998,382,2
+All depressants,1999,543,2.9
+All depressants,2000,431,2.3
+All depressants,2001,279,1.4
+All depressants,2002,289,1.5
+All depressants,2003,247,1.3
+All depressants,2004,234,1.2
+All depressants,2005,271,1.4
+All depressants,2006,292,1.4
+All depressants,2007,394,1.9
+All depressants,2008,446,2.1
+All depressants,2009,557,2.6
+All depressants,2010,601,2.7
+All depressants,2011,601,2.7
+All depressants,2012,666,2.9
+All depressants,2013,641,2.8
+All depressants,2014,794,3.4
+All depressants,2015,801,3.4
+All depressants,2016,910,3.8
+All depressants,2017,"1,150",4.7
+All depressants,2018,"1,044",4.2
+All depressants,2019,944,3.8
+All psychostimulants,1997,29,0.1
+All psychostimulants,1998,47,0.2
+All psychostimulants,1999,76,0.4
+All psychostimulants,2000,104,0.5
+All psychostimulants,2001,59,0.3
+All psychostimulants,2002,62,0.3
+All psychostimulants,2003,34,0.2
+All psychostimulants,2004,60,0.3
+All psychostimulants,2005,79,0.4
+All psychostimulants,2006,86,0.4
+All psychostimulants,2007,93,0.5
+All psychostimulants,2008,109,0.5
+All psychostimulants,2009,101,0.5
+All psychostimulants,2010,106,0.5
+All psychostimulants,2011,104,0.5
+All psychostimulants,2012,163,0.7
+All psychostimulants,2013,165,0.7
+All psychostimulants,2014,258,1.2
+All psychostimulants,2015,289,1.3
+All psychostimulants,2016,423,1.8
+All psychostimulants,2017,443,1.9
+All psychostimulants,2018,416,1.7
+All psychostimulants,2019,469,2
+All antidepressants,1997,233,1.3
+All antidepressants,1998,215,1.2
+All antidepressants,1999,300,1.6
+All antidepressants,2000,268,1.4
+All antidepressants,2001,194,1
+All antidepressants,2002,249,1.3
+All antidepressants,2003,153,0.8
+All antidepressants,2004,187,0.9
+All antidepressants,2005,200,1
+All antidepressants,2006,268,1.3
+All antidepressants,2007,271,1.3
+All antidepressants,2008,312,1.5
+All antidepressants,2009,374,1.7
+All antidepressants,2010,335,1.5
+All antidepressants,2011,332,1.5
+All antidepressants,2012,384,1.7
+All antidepressants,2013,376,1.6
+All antidepressants,2014,472,2
+All antidepressants,2015,501,2.1
+All antidepressants,2016,517,2.1
+All antidepressants,2017,683,2.8
+All antidepressants,2018,605,2.4
+All antidepressants,2019,568,2.2
+All antipsychotics,1997,75,0.4
+All antipsychotics,1998,60,0.3
+All antipsychotics,1999,92,0.5
+All antipsychotics,2000,92,0.5
+All antipsychotics,2001,38,0.2
+All antipsychotics,2002,37,0.2
+All antipsychotics,2003,29,0.1
+All antipsychotics,2004,17,0
+All antipsychotics,2005,38,0.2
+All antipsychotics,2006,71,0.3
+All antipsychotics,2007,70,0.3
+All antipsychotics,2008,89,0.4
+All antipsychotics,2009,90,0.4
+All antipsychotics,2010,134,0.6
+All antipsychotics,2011,107,0.5
+All antipsychotics,2012,75,0.3
+All antipsychotics,2013,62,0.3
+All antipsychotics,2014,99,0.4
+All antipsychotics,2015,229,1
+All antipsychotics,2016,337,1.4
+All antipsychotics,2017,446,1.9
+All antipsychotics,2018,401,1.7
+All antipsychotics,2019,356,1.5
+Paracetamol,1997,87,0.5
+Paracetamol,1998,88,0.5
+Paracetamol,1999,110,0.6
+Paracetamol,2000,108,0.6
+Paracetamol,2001,71,0.4
+Paracetamol,2002,73,0.4
+Paracetamol,2003,51,0.3
+Paracetamol,2004,31,0.2
+Paracetamol,2005,52,0.3
+Paracetamol,2006,79,0.4
+Paracetamol,2007,82,0.4
+Paracetamol,2008,63,0.3
+Paracetamol,2009,104,0.5
+Paracetamol,2010,110,0.5
+Paracetamol,2011,105,0.5
+Paracetamol,2012,138,0.6
+Paracetamol,2013,113,0.5
+Paracetamol,2014,166,0.7
+Paracetamol,2015,183,0.8
+Paracetamol,2016,209,0.9
+Paracetamol,2017,310,1.2
+Paracetamol,2018,283,1.1
+Paracetamol,2019,252,1
+Ibuprofen and aspirin,1997,7,0
+Ibuprofen and aspirin,1998,7,0
+Ibuprofen and aspirin,1999,14,0
+Ibuprofen and aspirin,2000,6,0
+Ibuprofen and aspirin,2001,11,0
+Ibuprofen and aspirin,2002,35,0.2
+Ibuprofen and aspirin,2003,27,0.1
+Ibuprofen and aspirin,2004,24,0.1
+Ibuprofen and aspirin,2005,37,0.2
+Ibuprofen and aspirin,2006,43,0.2
+Ibuprofen and aspirin,2007,52,0.2
+Ibuprofen and aspirin,2008,58,0.3
+Ibuprofen and aspirin,2009,71,0.3
+Ibuprofen and aspirin,2010,70,0.3
+Ibuprofen and aspirin,2011,53,0.2
+Ibuprofen and aspirin,2012,38,0.2
+Ibuprofen and aspirin,2013,27,0.1
+Ibuprofen and aspirin,2014,43,0.2
+Ibuprofen and aspirin,2015,43,0.2
+Ibuprofen and aspirin,2016,40,0.2
+Ibuprofen and aspirin,2017,58,0.2
+Ibuprofen and aspirin,2018,70,0.3
+Ibuprofen and aspirin,2019,72,0.3
+All non-opioid analgesics,1997,95,0.5
+All non-opioid analgesics,1998,97,0.5
+All non-opioid analgesics,1999,122,0.6
+All non-opioid analgesics,2000,115,0.6
+All non-opioid analgesics,2001,99,0.5
+All non-opioid analgesics,2002,109,0.6
+All non-opioid analgesics,2003,77,0.4
+All non-opioid analgesics,2004,55,0.3
+All non-opioid analgesics,2005,88,0.4
+All non-opioid analgesics,2006,136,0.7
+All non-opioid analgesics,2007,135,0.6
+All non-opioid analgesics,2008,130,0.6
+All non-opioid analgesics,2009,191,0.9
+All non-opioid analgesics,2010,184,0.8
+All non-opioid analgesics,2011,162,0.7
+All non-opioid analgesics,2012,171,0.7
+All non-opioid analgesics,2013,134,0.6
+All non-opioid analgesics,2014,204,0.9
+All non-opioid analgesics,2015,217,0.9
+All non-opioid analgesics,2016,240,1
+All non-opioid analgesics,2017,354,1.4
+All non-opioid analgesics,2018,334,1.3
+All non-opioid analgesics,2019,299,1.2
+Alcohol,1997,212,1.1
+Alcohol,1998,244,1.3
+Alcohol,1999,260,1.4
+Alcohol,2000,252,1.3
+Alcohol,2001,167,0.9
+Alcohol,2002,163,0.8
+Alcohol,2003,137,0.7
+Alcohol,2004,125,0.6
+Alcohol,2005,148,0.7
+Alcohol,2006,115,0.6
+Alcohol,2007,163,0.8
+Alcohol,2008,223,1.1
+Alcohol,2009,281,1.3
+Alcohol,2010,260,1.2
+Alcohol,2011,275,1.2
+Alcohol,2012,267,1.2
+Alcohol,2013,248,1.1
+Alcohol,2014,295,1.3
+Alcohol,2015,315,1.4
+Alcohol,2016,267,1.1
+Alcohol,2017,360,1.5
+Alcohol,2018,362,1.5
+Alcohol,2019,310,1.2
+Cocaine,1997,16,0.1
+Cocaine,1998,32,0.2
+Cocaine,1999,25,0.1
+Cocaine,2000,27,0.1
+Cocaine,2001,30,0.2
+Cocaine,2002,13,0.1
+Cocaine,2003,10,0
+Cocaine,2004,15,0
+Cocaine,2005,17,0
+Cocaine,2006,16,0
+Cocaine,2007,18,0.2
+Cocaine,2008,24,0.1
+Cocaine,2009,30,0.1
+Cocaine,2010,16,0.1
+Cocaine,2011,16,0.2
+Cocaine,2012,26,0.1
+Cocaine,2013,21,0.1
+Cocaine,2014,15,0
+Cocaine,2015,46,0.2
+Cocaine,2016,34,0.1
+Cocaine,2017,50,0.2
+Cocaine,2018,58,0.2
+Cannabinoids,2019,85,0.3
+Cannabinoids,1997,43,0.2
+Cannabinoids,1998,25,0.1
+Cannabinoids,1999,39,0.2
+Cannabinoids,2000,49,0.3
+Cannabinoids,2001,28,0.1
+Cannabinoids,2002,23,0.1
+Cannabinoids,2003,11,0.15
+Cannabinoids,2004,12,0.2
+Cannabinoids,2005,20,0.1
+Cannabinoids,2006,36,0.2
+Cannabinoids,2007,39,0.2
+Cannabinoids,2008,52,0.3
+Cannabinoids,2009,64,0.3
+Cannabinoids,2010,70,0.3
+Cannabinoids,2011,84,0.4
+Cannabinoids,2012,87,0.4
+Cannabinoids,2013,54,0.2
+Cannabinoids,2014,115,0.5
+Cannabinoids,2015,139,0.6
+Cannabinoids,2016,179,0.8
+Cannabinoids,2017,261,1.1
+Cannabinoids,2018,273,1.1
+Cannabinoids,2019,206,0.9
