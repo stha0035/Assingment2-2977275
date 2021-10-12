@@ -1,0 +1,45 @@
+{
+    "params": [
+           {
+           "name": "Smoking_selection",
+           "value": "Alcohol",
+           "bind": {
+               "input": "select",
+               "options": [
+                   "Alcohol",
+                   "Tabacoo",
+                   "Marijuana",
+                   "Ecstasy",
+                   "Meth",
+                   "Cocaine",
+                   "Heroin",
+                   "Other"
+           ],
+           "labels":[
+                   "Alcohol",
+                   "Tabacoo",
+                   "Marijuana",
+                   "Ecstasy",
+                   "Meth",
+                   "Cocaine",
+                   "Heroin",
+                   "Other"
+                   ],
+                       "name": "Smoking Status: "
+                   }
+           } 
+       ],
+   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+   "description": "Stock prices of 5 Tech Companies over Time.",
+   "data": {"url": "https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/DurgsThatCauseTheMostDeaths.csv"},
+   "mark": {
+     "type": "line",
+     "point": true
+   },
+   "transform": [{"filter": "Smoking_selection == null || datum.Drug == Smoking_selection"}],
+   "encoding": {
+     "x": {"timeUnit": "year", "field": "Year"},
+     "y": {"aggregate":"mean", "field": "Percentage", "type": "quantitative"},
+     "color": {"field": "Gender", "type": "nominal"}
+   }
+ }
