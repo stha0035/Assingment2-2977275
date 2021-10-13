@@ -39,20 +39,20 @@
     border: 2px solid black;
     padding: -5px;
     margin: 8px;
-    font-size: 15px;
-    font-style: italic;
+    font-size: 14px;
+    font-style: bold;
     font-weight: 100;
   }
   .tittle {
-    background-color: blue;
+    background-color: rgba(23, 149, 233, 0.959);
     width: 850px;
     height: 30px;
     border: 2px solid black;
-    padding: -5px;
+    padding: -30px;
     margin: 8px;
     font-size: 10px;
-    font-style: italic;
-    font-weight: 100;
+    font-style: bold;
+    font-weight: 200;
   }
   div.relative {
     position: relative;
@@ -75,10 +75,11 @@
     width: 850px;
     height: 380px;
     padding: -5px;
-    left:8px;
     border: 1px solid #0a0a0a;
+    margin: 8px;
+    font-size: 10px;
   }
-  
+
   div.absolute2 {
     position: absolute;
     top: 0px;

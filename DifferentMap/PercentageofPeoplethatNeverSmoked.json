@@ -35,7 +35,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Percentage of People that Smoke",
   "width": 450,
-  "height": 320,
+  "height": 300,
   "data": {
     "url": "https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/UPDATED2001-2019.csv"
   },

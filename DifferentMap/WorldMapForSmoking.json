@@ -14,8 +14,8 @@
 ],
 "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 "title": "Percentage of People Smoking Cigarette Daily",
-"width": 600,
-"height": 500,
+"width": 450,
+"height": 290,
 "data": {
   "url": "https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/Proportion%20of%20population%2015%2B%20who%20are%20daily%20smokers.csv"
 },
