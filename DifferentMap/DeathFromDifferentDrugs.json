@@ -1,134 +1,133 @@
 {
-    "title": "Deaths Caused By All Drugs In Australia" ,
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "Google's stock price over time.",
-    "data": {
-      "url": "https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/testingDrugsDeaths.csv"
-    },
-     "params": [
-           {
-           "name": "Smoking_selection",
-           "value": "Drugs",
-           "bind": {
-               "input": "select",
-               "options": [
-                 "Drugs",
-                 "DeathsPer"
-                
-           ],
-           "labels":[
-                   "Deaths",
-                   "Rate (per 100,000 population)"
-                   ],
-                       "name": "Smoking Status: "
-                   }
-           },
-           {
-             "name": "Drug_selection",
-           "value": "Heroin",
-           "bind": {
-               "input": "select",
-               "options": [
-                 "Heroin",
-                 "Natural and semi-synthetic opioids",
-                 "Methadone",
-                 "Synthetic opioids",
-                 "All opioids",
-                 "All opioids excluding heroin",
-                 "Benzodiazepines",
-                 "All depressants",
-                 "All psychostimulants",
-                 "All antidepressants",
-                 "All antipsychotics",
-                 "Paracetamol",
-                 "Ibuprofen and aspirin",
-                 "All non-opioid analgesics",
-                 "Alcohol",
-                 "Cocaine",
-                 "Cannabinoids"                
-           ],
-           "labels":[
-                     "Heroin",
-                 "Natural and semi-synthetic opioids",
-                 "Methadone",
-                 "Synthetic opioids",
-                 "All opioids",
-                 "All opioids excluding heroin",
-                 "Benzodiazepines",
-                 "All depressants",
-                 "All psychostimulants",
-                 "All antidepressants",
-                 "All antipsychotics",
-                 "Paracetamol",
-                 "Ibuprofen and aspirin",
-                 "All non-opioid analgesics",
-                 "Alcohol",
-                 "Cocaine",
-                 "Cannabinoids"  
-                   ],
-                       "name": "Drug Status: "
-                   }
-           }
+  "title": "Deaths Caused By Different Drugs In Australia" ,
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Google's stock price over time.",
+  "data": {
+    "url": "https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/testingDrugsDeaths.csv"
+  },
+   "params": [
+         {
+         "name": "Smoking_selection",
+         "value": "Drugs",
+         "bind": {
+             "input": "select",
+             "options": [
+               "Drugs",
+               "DeathsPer"
+              
+         ],
+         "labels":[
+                 "Deaths",
+                 "Rate (per 100,000 population)"
+                 ],
+                     "name": "Smoking Status: "
+                 }
+         },
+         {
+           "name": "Drug_selection",
+         "value": "Heroin",
+         "bind": {
+             "input": "select",
+             "options": [
+               "Heroin",
+               "Natural and semi-synthetic opioids",
+               "Methadone",
+               "Synthetic opioids",
+               "All opioids",
+               "All opioids excluding heroin",
+               "Benzodiazepines",
+               "All depressants",
+               "All psychostimulants",
+               "All antidepressants",
+               "All antipsychotics",
+               "Paracetamol",
+               "Ibuprofen and aspirin",
+               "All non-opioid analgesics",
+               "Alcohol",
+               "Cocaine",
+               "Cannabinoids"                
+         ],
+         "labels":[
+                   "Heroin",
+               "Natural and semi-synthetic opioids",
+               "Methadone",
+               "Synthetic opioids",
+               "All opioids",
+               "All opioids excluding heroin",
+               "Benzodiazepines",
+               "All depressants",
+               "All psychostimulants",
+               "All antidepressants",
+               "All antipsychotics",
+               "Paracetamol",
+               "Ibuprofen and aspirin",
+               "All non-opioid analgesics",
+               "Alcohol",
+               "Cocaine",
+               "Cannabinoids"  
+                 ],
+                     "name": "Drug Status: "
+                 }
+         }
 
-       ],
-     
-       "transform": [{"filter": "datum.Type == Smoking_selection"}],
-    "width": 450,
-    "height": 320,
+     ],
+   
+     "transform": [{"filter": "datum.Type == Smoking_selection"}],
+  "width": 450,
+  "height": 320,
 
-    "layer":[
-      {
-    "transform": [
-      {
-        "filter": "datum.Drug==Drug_selection"
-      }
-    ],
-    "mark": {
-      "type": "area",
-      "point": true,
-      "line": {
-        "color": "darkblue"
-      },
-      "color": {
-        "x1": 1,
-        "y1": 1,
-        "x2": 1,
-        "y2": 0,
-        "gradient": "linear",
-        "stops": [
-          {
-            "offset": 0,
-            "color": "white"
-          },
-          {
-            "offset": 1,
-            "color": "lightblue"
-          }
-        ]
-      }
+  "layer":[
+    {
+  "transform": [
+    {
+      "filter": "datum.Drug==Drug_selection"
+    }
+  ],
+  "mark": {
+    "type": "area",
+    "point": true,
+    "line": {
+      "color": "darkblue"
     },
-    "encoding": {
-      
-      "x": {
-        "field": "Year",
-         "timeUnit": "year",
-         "title":"Years"
-      },
-      "y": {
-        "field": "NumDeath",
-        "type": "quantitative",
-        "title":"Deaths"
-      },
+    "color": {
+      "x1": 1,
+      "y1": 1,
+      "x2": 1,
+      "y2": 0,
+      "gradient": "linear",
+      "stops": [
+        {
+          "offset": 0,
+          "color": "white"
+        },
+        {
+          "offset": 1,
+          "color": "lightblue"
+        }
+      ]
+    }
+  },
+  "encoding": {
     
-      "tooltip": [
-        {"field": "Year", "timeUnit": "year", "title":"Year"},
-        {"field": "NumDeath", "type": "quantitative", "title":"Deaths"},
-        {"field": "Type", "type": "nominal", "title":"Type"},
-        {"field": "Drug", "type": "nominal", "title":"Drug Type"}
-        ]
-       }
-      }
-    ]
-      
-  }
+    "x": {
+      "field": "Year",
+       "timeUnit": "year",
+       "title":"Years"
+    },
+    "y": {
+      "field": "NumDeath",
+      "type": "quantitative",
+      "title":"Deaths"
+    },
   
+    "tooltip": [
+      {"field": "Year", "timeUnit": "year", "title":"Year"},
+      {"field": "NumDeath", "type": "quantitative", "title":"Deaths"},
+      {"field": "Type", "type": "nominal", "title":"Type"},
+      {"field": "Drug", "type": "nominal", "title":"Drug Type"}
+      ]
+     }
+    }
+  ]
+    
+}
