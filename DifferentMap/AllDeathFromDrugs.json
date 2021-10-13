@@ -1,85 +1,122 @@
 {
-    "title": "Deaths Caused By All Drugs In Australia" ,
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "description": "Google's stock price over time.",
-    "data": {
-      "url": "https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/AllDeathByYears.csv"
-    },
-     "params": [
+  "title": "Drugs That Cause the Most Deaths" ,
+    "params": [
            {
            "name": "Smoking_selection",
-           "value": "Deaths",
+           "value": "Alcohol",
            "bind": {
                "input": "select",
                "options": [
-                 "Deaths",
-                 "DeathsPer100"
-                
+                   "Alcohol",
+                   "Tabacoo",
+                   "Marijuana",
+                   "Ecstasy",
+                   "Meth",
+                   "Cocaine",
+                   "Heroin",
+                   "Other"
            ],
            "labels":[
-                   "Deaths",
-                   "Rate (per 100,000 population)"
+                   "Alcohol",
+                   "Tabacoo",
+                   "Marijuana",
+                   "Ecstasy",
+                   "Meth",
+                   "Cocaine",
+                   "Heroin",
+                   "Other"
                    ],
                        "name": "Smoking Status: "
                    }
            } 
        ],
-       "transform": [{"filter": "datum.Type == Smoking_selection"}],
-    "width": 450,
-    "height": 320,
-
-    "layer":[
-      {
-    "transform": [
-      {
-        "filter": "datum.Symbol==='SUM'"
-      }
-    ],
-    "mark": {
-      "type": "area",
-      "point": true,
-      "line": {
-        "color": "darkblue"
-      },
-      "color": {
-        "x1": 1,
-        "y1": 1,
-        "x2": 1,
-        "y2": 0,
-        "gradient": "linear",
-        "stops": [
-          {
-            "offset": 0,
-            "color": "white"
-          },
-          {
-            "offset": 1,
-            "color": "lightblue"
-          }
-        ]
-      }
-    },
-    "encoding": {
-      
-      "x": {
-        "field": "Year",
-         "timeUnit": "year",
-         "title":"Years"
-      },
-      "y": {
-        "field": "NumDeath",
-        "type": "quantitative",
-        "title":"Deaths"
-      },
-    
+       "transform": [{"filter": "datum.Drug == Smoking_selection"}],
+   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+   "description": "Stock prices of 5 Tech Companies over Time.",
+   "data": {"url": "https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/DurgsThatCauseTheMostDeaths.csv"},
+   "width": 450,
+   "height": 320,
+   "layer":[
+     {
+       "encoding": {
+     "x": {"timeUnit": "year", "field": "Year","title":"Year"},
+     "y": {"field": "Percentage", "type": "quantitative"},
+     "color": {"field": "Gender", "type": "nominal"},
       "tooltip": [
-        {"field": "Year", "timeUnit": "year", "title":"Year"},
-        {"field": "NumDeath", "type": "quantitative", "title":"Deaths"},
-        {"field": "Type", "type": "nominal", "title":"Type"}
-        ]
-       }
-      }
+      {"field": "Year", "timeUnit": "year", "title":"Year"},
+      {"field": "Percentage", "type": "quantitative"},
+      {"field": "Gender", "type": "nominal"}
     ]
-      
-  }
-  
+      },
+      "layer":[
+        {
+         "mark": "line"
+        },
+        {
+           "params": [{
+            "name": "label",
+            "select": {
+              "type": "point",
+              "encodings": ["x"],
+              "nearest": true,
+              "on": "mouseover"
+            }
+          }],
+          "mark": "point",
+          "encoding": {
+            "opacity": {
+              "condition": {
+                "param": "label",
+                "empty": false,
+                "value": 1
+              },
+              "value": 0
+            }
+          }
+        }
+      ]
+     },
+      {
+      "transform": [{"filter": {"param": "label", "empty": false}}],
+      "layer": [
+        {
+          "mark": {"type": "rule", "color": "red"},
+          "encoding": {
+            "x": {"type": "temporal", "field": "Year", "aggregate": "min"}
+          }
+        },
+        {
+          "encoding": {
+            "text": {"type": "quantitative", "field": "Percentage"},
+            "x": {"type": "temporal", "field": "Year"},
+            "y": {"type": "quantitative", "field": "Percentage"},
+            "tooltip": [
+      {"field": "Year", "timeUnit": "year", "title": "year"},
+      {"field": "Percentage", "type": "quantitative"},
+      {"field": "Gender", "type": "nominal"}
+    ]
+          },
+          "layer": [
+            {
+              "mark": {
+                "type": "text",
+                "stroke": "white",
+                "strokeWidth": 2,
+                "align": "left",
+                "dx": 5,
+                "dy": -5
+              }
+            },
+            {
+              "mark": {"type": "text", "align": "left", "dx": 5, "dy": -5},
+              "encoding": {
+                "color": {"type": "nominal", "field": "Gender"}
+              }
+            }
+          ]
+        }
+      ]
+    }
+   
+   ]
+ }

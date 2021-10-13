@@ -17,10 +17,10 @@
               
          ],
          "labels":[
-                 "Deaths",
+                 "Number",
                  "Rate (per 100,000 population)"
                  ],
-                     "name": "Smoking Status: "
+                     "name": "Select Measure: "
                  }
          },
          {
@@ -66,7 +66,7 @@
                "Cocaine",
                "Cannabinoids"  
                  ],
-                     "name": "Drug Status: "
+                     "name": "Drug Type: "
                  }
          }
 

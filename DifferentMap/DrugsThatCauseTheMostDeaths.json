@@ -1,5 +1,5 @@
 {
-  "title": "Percentage of Drugs That Cause the Most Deaths" ,
+  "title": "Drugs That Cause the Most Deaths" ,
     "params": [
            {
            "name": "Smoking_selection",
@@ -30,7 +30,7 @@
                    }
            } 
        ],
-       "transform": [{"filter": "Smoking_selection == null || datum.Drug == Smoking_selection"}],
+       "transform": [{"filter": "datum.Drug == Smoking_selection"}],
    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
    "description": "Stock prices of 5 Tech Companies over Time.",
    "data": {"url": "https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/DurgsThatCauseTheMostDeaths.csv"},
@@ -39,8 +39,8 @@
    "layer":[
      {
        "encoding": {
-     "x": {"timeUnit": "year", "field": "Year"},
-     "y": {"aggregate":"mean", "field": "Percentage", "type": "quantitative"},
+     "x": {"timeUnit": "year", "field": "Year","title":"Year"},
+     "y": {"field": "Percentage", "type": "quantitative"},
      "color": {"field": "Gender", "type": "nominal"},
       "tooltip": [
       {"field": "Year", "timeUnit": "year", "title":"Year"},

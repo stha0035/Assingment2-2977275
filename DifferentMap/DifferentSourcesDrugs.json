@@ -25,7 +25,8 @@
     "tooltip": [
       {"field": "Percentage"}, 
       {"field": "Year", "type": "quantitative"},
-      {"field": "Drug", "type": "nominal"}
+      {"field": "Drug", "type": "nominal"},
+      {"field": "Source", "type": "nominal"}
       ],
     "color": {
       "field": "delta",
