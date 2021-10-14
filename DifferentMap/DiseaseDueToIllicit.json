@@ -1,0 +1,108 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Diseases That Illicit  drugs Leads To, 2015",
+    "data": {
+      "url":"https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/DiseasesDueToIllucit.csv"
+    },
+    "width": 270,
+    "height": 450,
+    "layer":[{
+    "params": [
+      {
+        "name": "expand",
+        "select": {"type": "point", "on": "mouseover"}
+      },
+      {"name": "hover", "select": "point"}
+    ],
+    "mark": {
+      "type": "bar",
+      "stroke": "black",
+      "cursor": "pointer",
+      "strokeWidth": 20
+    },
+    
+    "encoding": {
+      "y": {"field": "Disease", "type": "nominal", "sort": "-x"},
+      "x": {"field": "Percentage", "type": "quantitative"},
+      "color": {
+              "field": "Percentage", 
+              "type": "quantitative", 
+              "scale": {"scheme": "blues"}
+          },
+      "tooltip": [
+        {"field": "Disease", "type": "nominal"},
+        {"field": "Percentage", "type": "quantitative"}
+      ],
+      "fillOpacity": {
+        "condition": {"param": "hover", "value": 1},
+        "value": 0.3
+      },
+      "strokeWidth": {
+        "condition": [
+          {
+            "param": "hover",
+            "empty": false,
+            "value": 2
+          },
+          {
+            "param": "expand",
+            "empty": false,
+            "value": 1
+          }
+        ],
+        "value": 0
+          } 
+        }
+      },
+      {
+        "data": {
+      "url":"https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/DiseasesDueToIllucit.csv"
+    },
+    "encoding": {
+      "y": {"field": "Disease", "type": "nominal", "sort": "-x"},
+      "x": {"field": "Percentage", "type": "quantitative"}
+        },
+        "layer":[
+          {
+      "mark": {
+        "type": "text",
+        "fontSize":10,
+        "dy": -1,
+        "dx": 12,
+        "fontStyle": "italic",
+        "fontWeight": "bold"
+      },
+      "encoding": {
+        "text": {"field": "Percentage", "type": "quantitative"}
+      }
+      }
+        ]
+      },
+       {
+        "data": {
+      "url":"https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/DiseasesDueToIllucit.csv"
+    },
+    "transform": [
+        {"calculate":"parseInt(datum.Percentage)", "as": "Percentage"}
+      ],
+    "encoding": {
+      "y": {"field": "Disease", "type": "nominal"},
+      "x": {"field": "Percentage", "type": "quantitative"}
+        },
+        "layer":[
+         {"mark": "bar",
+      "encoding": {
+          "x": {"field": "Percentage", "type": "quantitative", "title": ""},
+          "y": {"field": "Disease", "type": "nominal", "title": "", "sort": "-x"},
+          "color": {
+              "field": "Percentage", 
+              "type": "quantitative", 
+              "scale": {"scheme": "blue"}
+          }
+            }
+         }
+        ]
+      }
+    ]
+  }
+  

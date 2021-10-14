@@ -11,7 +11,7 @@
       padding: 8px 10px;
       width: 200px;
       height: 60px;
-      left:20px;
+      left:30px;
       font-size: 12px;
       text-align: center;
       cursor: pointer;
@@ -41,8 +41,8 @@
                 <div class = "MainTittle">
                     <h1 style="color:black">Exploring the use of Alcohol, Tobacco & other drugs in Australians</h1>
                 </div>
-                <a href="#section2"><button class="button">Click Here: To explore the percentage of people that smoke in different states of Australia</button></a>
-                <a href="#section3"><button class="button">Click Here: To explore the percentage of people that smoke in different states of Australia</button></a>
+                <a href="#section2"><button class="button">Click Here: To explore the percentage of people doing drugs in states of Australia</button></a>
+                <a href="#section3"><button class="button">Click Here: To explore the percentage of diseases that drugs lead to in Australia</button></a>
                 <a href="#section2"><button class="button">Click Here: To explore the percentage of people that smoke in different states of Australia</button></a>
                 <a href="#section2"><button class="button">Click Here: To explore the percentage of people that smoke in different states of Australia</button></a>
                     <div class = "tittle">          
@@ -105,12 +105,19 @@
         <div class = "heading", id = section3>
           <div class = "pure-u-2-3">
                   <div class = "tittle">
-                      <h2 style="color:white">Diseases That Alcohol Leads To</h2>
+                      <h2 style="color:white">Diseases That Drugs Leads To</h2>
                   </div>  
           </div>
-
           <div class="relative3">
             <div id="chart6" class="widthofVis"></div>
+            <div class="pure-u-1-3">
+                <div class="absolute3">
+                  <p>Just testing section</p>
+                </div>
+            </div>
+          </div>
+          <div class="relative3">
+            <div id="chart10" class="widthofVis"></div>
             <div class="pure-u-1-3">
                 <div class="absolute3">
                   <p>Just testing section</p>
@@ -131,6 +138,7 @@
   var spec7 = "DifferentSourcesDrugs.json";
   var spec8 = "DeathFromDifferentDrugs.json";
   var spec9 = "AllDeathFromDrugs.json";
+  var spec10 = "DiseaseDueToIllicit.json";
   vegaEmbed('#chart1', spec1).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
@@ -156,6 +164,9 @@
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
   vegaEmbed('#chart9', spec9).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  vegaEmbed('#chart10', spec10).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 
