@@ -9,9 +9,8 @@
   <style>
     .button {
       padding: 8px 10px;
-      width: 200px;
+      width: 205px;
       height: 60px;
-      left:30px;
       font-size: 12px;
       text-align: center;
       cursor: pointer;
@@ -21,6 +20,8 @@
       border: 3x black;
       border-radius: 15px;
       box-shadow: 4px #999;
+      
+      margin: 1px
     }
     
     .button:hover {background-color: #1c1fc9}
@@ -30,42 +31,47 @@
       box-shadow: 0 5px #666;
       transform: translateY(4px);
     }
+
+    #myBtn {
+      display: none;
+      position: fixed;
+      text-align: center;
+      bottom: 20px;
+      right: 468px;
+      font-size: 16px;
+      border: 3x black;
+      outline: none;
+      background-color: rgba(23, 149, 233, 0.959);
+      color: white;
+      cursor: pointer;
+      padding: 8px 10px;
+      border-radius: 15px;
+    }
+
+    #myBtn:hover {
+    background-color: #1c1fc9;
+    }
+
     </style>
   <link rel="stylesheet" type="text/css" href="styles.css" media="all">
 </head>
 
 <body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     <div class = "myPage">
         <div class = "heading">
-            <div class="pure-u-1-1">
+            <div class="pure-u-1-3">
                 <div class = "MainTittle">
                     <h1 style="color:black">Exploring the use of Alcohol, Tobacco & other drugs in Australians</h1>
                 </div>
                 <a href="#section2"><button class="button">Click Here: To explore the percentage of people doing drugs in states of Australia</button></a>
                 <a href="#section3"><button class="button">Click Here: To explore the percentage of diseases that drugs lead to in Australia</button></a>
-                <a href="#section4"><button class="button">Click Here: To explore the percentage of people get there sources from</button></a>
+                <a href="#section4"><button class="button">Click Here: To explore the sources from where people get drugs</button></a>
                 <a href="#section5"><button class="button">Click Here: To explore the percentage of deaths caused by drugs</button></a>
-                    <div class = "tittle">          
-                            <h2 style="color:white">Exploring the percentage of daily smoker around the world</h2> 
-                    </div>  
             </div>
         </div>
         <!-- end of first div -->
-
-        <!-- Start of second div -->
-        <div class="heading", id = section1>
-            <div class="pure-u-2-3">
-                <div class="relative">
-                    <div id="chart1" class="widthofVis"></div>
-                    <div class="pure-u-1-3">
-                        <div class="absolute">
-                          <p>Just testing section</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-           
-        </div>
+        
         <!-- end of second div -->
 
         <!-- Start of  div -->
@@ -74,6 +80,7 @@
                     <div class = "tittle">
                         <h2 style="color:white">Exploring Drug Usage in Different States of Australia</h2>
                     </div>  
+                   
             </div>
             <div class="relative2">
                 <div id="chart2" class="widthofVis"></div>
@@ -146,16 +153,8 @@
       <div class = "heading", id = section5>
         <div class = "pure-u-2-3">
                 <div class = "tittle">
-                    <h2 style="color:white">Exploring Drug Usage in Different States of Australia</h2>
+                    <h2 style="color:white">Exploring deaths from drugs in Australia</h2>
                 </div>  
-        </div>
-        <div class="relative2">
-          <div id="chart5" class="widthofVis"></div>
-          <div class="pure-u-1-3">
-              <div class="absolute2">
-                <p>Just testing section</p>
-              </div>
-          </div>
         </div>
         <div class="relative4">
           <div id="chart9" class="widthofVis"></div>
@@ -172,11 +171,9 @@
                   <p>Just testing section</p>
                 </div>
             </div>
-        </div>
-        
-        
-    </div>
-
+        </div>  
+      </div>
+      
     </div>
   
 <script type="text/javascript">
@@ -222,10 +219,25 @@
   }).catch(console.error);
 
 
-  function scrollWin() {
+    var mybutton = document.getElementById("myBtn");
 
-    href="#section2"
-    }       
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+
 </script>
 
 </body>
