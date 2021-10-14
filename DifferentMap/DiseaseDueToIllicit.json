@@ -1,10 +1,10 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Diseases That Illicit  drugs Leads To, 2015",
+    "title": "Diseases That Alcohol Leads To",
     "data": {
       "url":"https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/DiseasesDueToIllucit.csv"
     },
-    "width": 270,
+    "width": 300,
     "height": 450,
     "layer":[{
     "params": [
