@@ -79,7 +79,6 @@
     margin: 8px;
     font-size: 10px;
   }
-
   div.absolute2 {
     position: absolute;
     top: 0px;
@@ -87,4 +86,23 @@
     width: 300px;
     height: 380px;
   }
+
+  div.relative3 {
+    position: relative;
+    width: 850px;
+    height: 500px;
+    padding: -5px;
+    border: 1px solid #0a0a0a;
+    margin: 8px;
+    font-size: 10px;
+  }
+
+  div.absolute3 {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 300px;
+    height: 500px;
+  }
+
 

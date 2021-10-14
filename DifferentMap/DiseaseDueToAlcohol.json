@@ -1,9 +1,11 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Diseases That Alcohol Leads To",
+  "title": "Diseases That Alcohol Leads To in 2019",
   "data": {
     "url":"https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/DiseaseDueToAlcohol.csv"
   },
+  "width": 300,
+  "height": 450,
   "layer":[{
   "params": [
     {
