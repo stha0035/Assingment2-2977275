@@ -3,7 +3,7 @@
   "data": {"url": "https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/SourceOfDrugs2001.csv"},
    "width": 100,
     "height": 200,
-  "title": "Percentage of Drugs From Different Sources",
+  "title": "Percentage Of Drugs From Different Sources",
   
   "transform": [
     {"pivot": "Year", "value": "Percentage", "groupby": ["Source", "Drug"]},

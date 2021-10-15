@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Impact of Alcohol, 2019",
+  "title": "Impact Of Alcohol, 2019",
   "data": {
     "url":"https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/DiseaseDueToAlcohol.csv"
   },

@@ -1,6 +1,6 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": "Impact of Illict drugs, 2015",
+    "title": "Impact Of Illict Drugs, 2015",
     "data": {
       "url":"https://raw.githubusercontent.com/stha0035/Assingment2-2977275/main/DiseasesDueToIllucit.csv"
     },
