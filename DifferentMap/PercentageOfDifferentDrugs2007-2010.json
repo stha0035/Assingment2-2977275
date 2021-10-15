@@ -35,7 +35,7 @@
         }   
       ],
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Percentage of People do Different Drugs",
+  "title": "Percentage of People doing Different Drugs",
   "width": 450,
   "height": 300,
   "data": {
