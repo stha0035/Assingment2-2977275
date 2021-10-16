@@ -40,10 +40,10 @@
     border: 2px solid black;
     padding: -5px;
     margin: 8px;
-    font-size: 14px;
-    font-style: bold;
-    font-weight: 100;
+    font-size: 11px;
+    font-weight: 0;
     text-align: center;
+    font-family: sans-serif;
   }
   .tittle {
     background-color: rgba(23, 149, 233, 0.959);
@@ -55,7 +55,7 @@
     font-size: 10px;
     font-style: bold;
     font-weight: 200;
-
+    font-family: sans-serif;
   }
   div.relative {
     position: relative;
@@ -72,6 +72,7 @@
     right: 0;
     width: 300px;
     height: 350px;
+    font-family: sans-serif;
   }
   div.relative2 {
     position: relative;
@@ -84,6 +85,8 @@
     font-size: 10px;
     font-style: bold;
     font-weight: 200;
+    font-family: sans-serif;
+
   }
   div.absolute2 {
     position: absolute;
@@ -94,6 +97,8 @@
     font-size: 10px;
     font-style: bold;
     font-weight: 200;
+    font-family: sans-serif;
+
   }
 
   div.relative3 {
@@ -104,6 +109,8 @@
     border: 1px solid #0a0a0a;
     margin: 8px;
     font-size: 10px;
+    font-family: sans-serif;
+
   }
 
   div.absolute3 {
@@ -115,6 +122,8 @@
     font-size: 10px;
     font-style: bold;
     font-weight: 200;
+    font-family: sans-serif;
+
   }
 
   div.relative4 {
@@ -125,6 +134,8 @@
     border: 1px solid #0a0a0a;
     margin: 8px;
     font-size: 10px;
+    font-family: sans-serif;
+
   }
 
   div.absolute4 {
@@ -136,6 +147,8 @@
     font-size: 10px;
     font-style: bold;
     font-weight: 200;
+    font-family: sans-serif;
+
   }
 
 
